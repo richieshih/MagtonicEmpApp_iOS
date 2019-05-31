@@ -1,0 +1,6 @@
+framework module Pods_MagtonicEmpAppTests {
+  umbrella header "Pods-MagtonicEmpAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

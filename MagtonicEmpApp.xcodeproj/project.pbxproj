@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395EAD696704FF281D336A99 /* Pods_MagtonicEmpAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */; };
 		47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E622A0A98000651E98 /* AppDelegate.swift */; };
-		47B224E922A0A98000651E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E822A0A98000651E98 /* ViewController.swift */; };
+		47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E822A0A98000651E98 /* BaseViewController.swift */; };
 		47B224EC22A0A98000651E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B224EA22A0A98000651E98 /* Main.storyboard */; };
 		47B224EE22A0A98200651E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B224ED22A0A98200651E98 /* Assets.xcassets */; };
 		47B224F122A0A98200651E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B224EF22A0A98200651E98 /* LaunchScreen.storyboard */; };
 		47B224FC22A0A98200651E98 /* MagtonicEmpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224FB22A0A98200651E98 /* MagtonicEmpAppTests.swift */; };
 		47B2250722A0A98200651E98 /* MagtonicEmpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */; };
+		47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2251422A0ADFC00651E98 /* SlidingViewController.swift */; };
+		7E95AFCE020A8C32ECEF8230 /* Pods_MagtonicEmpAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */; };
+		FFBBEBC7894A3196F83A14A9 /* Pods_MagtonicEmpApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08311737553CD3B3CF5DBE18 /* Pods-MagtonicEmpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpApp.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.release.xcconfig"; sourceTree = "<group>"; };
+		18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203F04D5C59863F61B953651 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47B224E322A0A98000651E98 /* MagtonicEmpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagtonicEmpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B224E622A0A98000651E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47B224E822A0A98000651E98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47B224E822A0A98000651E98 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		47B224EB22A0A98000651E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47B224ED22A0A98200651E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B224F022A0A98200651E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		47B2250222A0A98200651E98 /* MagtonicEmpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagtonicEmpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicEmpAppUITests.swift; sourceTree = "<group>"; };
 		47B2250822A0A98200651E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B2251422A0ADFC00651E98 /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		784FE9BFBDB2A5496FD2AF77 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDECB2026E977EB3559734FE /* Pods-MagtonicEmpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppTests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0F3A57E15CFF4A0387BC085 /* Pods-MagtonicEmpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpApp.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBBEBC7894A3196F83A14A9 /* Pods_MagtonicEmpApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395EAD696704FF281D336A99 /* Pods_MagtonicEmpAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E95AFCE020A8C32ECEF8230 /* Pods_MagtonicEmpAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				47B224FA22A0A98200651E98 /* MagtonicEmpAppTests */,
 				47B2250522A0A98200651E98 /* MagtonicEmpAppUITests */,
 				47B224E422A0A98000651E98 /* Products */,
+				4A48A69012CF78FCD6C7EA3E /* Pods */,
+				8CCCFA72A705FEDB6B32311C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,13 @@
 		47B224E522A0A98000651E98 /* MagtonicEmpApp */ = {
 			isa = PBXGroup;
 			children = (
+				47B224F222A0A98200651E98 /* Info.plist */,
 				47B224E622A0A98000651E98 /* AppDelegate.swift */,
-				47B224E822A0A98000651E98 /* ViewController.swift */,
-				47B224EA22A0A98000651E98 /* Main.storyboard */,
+				47B224E822A0A98000651E98 /* BaseViewController.swift */,
+				47B2251422A0ADFC00651E98 /* SlidingViewController.swift */,
 				47B224ED22A0A98200651E98 /* Assets.xcassets */,
 				47B224EF22A0A98200651E98 /* LaunchScreen.storyboard */,
-				47B224F222A0A98200651E98 /* Info.plist */,
+				47B224EA22A0A98000651E98 /* Main.storyboard */,
 			);
 			path = MagtonicEmpApp;
 			sourceTree = "<group>";
@@ -125,6 +145,30 @@
 			path = MagtonicEmpAppUITests;
 			sourceTree = "<group>";
 		};
+		4A48A69012CF78FCD6C7EA3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F3A57E15CFF4A0387BC085 /* Pods-MagtonicEmpApp.debug.xcconfig */,
+				08311737553CD3B3CF5DBE18 /* Pods-MagtonicEmpApp.release.xcconfig */,
+				784FE9BFBDB2A5496FD2AF77 /* Pods-MagtonicEmpAppTests.debug.xcconfig */,
+				DDECB2026E977EB3559734FE /* Pods-MagtonicEmpAppTests.release.xcconfig */,
+				203F04D5C59863F61B953651 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */,
+				60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CCCFA72A705FEDB6B32311C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */,
+				18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */,
+				5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B2250B22A0A98200651E98 /* Build configuration list for PBXNativeTarget "MagtonicEmpApp" */;
 			buildPhases = (
+				79FE7AC621D2C2134B70D41A /* [CP] Check Pods Manifest.lock */,
 				47B224DF22A0A97F00651E98 /* Sources */,
 				47B224E022A0A97F00651E98 /* Frameworks */,
 				47B224E122A0A97F00651E98 /* Resources */,
+				B6DF060B45648B18B665E0E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B2250E22A0A98200651E98 /* Build configuration list for PBXNativeTarget "MagtonicEmpAppTests" */;
 			buildPhases = (
+				8E288036BEC63A08AFD8E1FA /* [CP] Check Pods Manifest.lock */,
 				47B224F322A0A98200651E98 /* Sources */,
 				47B224F422A0A98200651E98 /* Frameworks */,
 				47B224F522A0A98200651E98 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B2251122A0A98200651E98 /* Build configuration list for PBXNativeTarget "MagtonicEmpAppUITests" */;
 			buildPhases = (
+				76ED4CF9710AFCA01D1E7FD7 /* [CP] Check Pods Manifest.lock */,
 				47B224FE22A0A98200651E98 /* Sources */,
 				47B224FF22A0A98200651E98 /* Frameworks */,
 				47B2250022A0A98200651E98 /* Resources */,
@@ -251,13 +299,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76ED4CF9710AFCA01D1E7FD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicEmpAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FE7AC621D2C2134B70D41A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicEmpApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E288036BEC63A08AFD8E1FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicEmpAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DF060B45648B18B665E0E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NavigationDrawer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47B224DF22A0A97F00651E98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B224E922A0A98000651E98 /* ViewController.swift in Sources */,
+				47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */,
 				47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */,
+				47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +570,7 @@
 		};
 		47B2250C22A0A98200651E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F3A57E15CFF4A0387BC085 /* Pods-MagtonicEmpApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +589,7 @@
 		};
 		47B2250D22A0A98200651E98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08311737553CD3B3CF5DBE18 /* Pods-MagtonicEmpApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +608,7 @@
 		};
 		47B2250F22A0A98200651E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784FE9BFBDB2A5496FD2AF77 /* Pods-MagtonicEmpAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +630,7 @@
 		};
 		47B2251022A0A98200651E98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDECB2026E977EB3559734FE /* Pods-MagtonicEmpAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +652,7 @@
 		};
 		47B2251222A0A98200651E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203F04D5C59863F61B953651 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +673,7 @@
 		};
 		47B2251322A0A98200651E98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

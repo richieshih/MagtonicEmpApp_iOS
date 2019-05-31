@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */; };
+		15CE2820A2578B71D58D35108A173A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1B392D6BB76DF47DD110450B3B88884D /* Pods-MagtonicEmpAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */; };
+		255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */; };
+		3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */; };
+		5AD5E35A168A625B544FB7D8E716A96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		78F64A3F87A9E0D9BAB5379F58397EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */; };
+		DD90013DCF025F0D0083343E6E316F07 /* Pods-MagtonicEmpAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB0C48EB90A537C960932CEDD8B942C /* Pods-MagtonicEmpAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */; };
+		E58BBFE21690D33A07B7A7530AF3ED6F /* Pods-MagtonicEmpAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB2E56EAE54841DA7F55B67EC57C25CD /* Pods-MagtonicEmpApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */; };
+		ED032D688C432802182844DCFB87DAC9 /* Pods-MagtonicEmpApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53522828977088DE5BE685E9EAB72EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD3989423DB0A1649B9D9DB1B9F2D18;
+			remoteInfo = NavigationDrawer;
+		};
+		77FE6CB4750497C48252348BBC92954E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1FAD7A7143EB3D35A5013A7B33C019;
+			remoteInfo = "Pods-MagtonicEmpApp";
+		};
+		91033E4EDDF1BB9CE364A52F9D1AFBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1FAD7A7143EB3D35A5013A7B33C019;
+			remoteInfo = "Pods-MagtonicEmpApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppTests-dummy.m"; sourceTree = "<group>"; };
+		1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppTests-umbrella.h"; sourceTree = "<group>"; };
+		2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E268EB7A8F48180184B3C8F6D1C85F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationDrawer-Info.plist"; sourceTree = "<group>"; };
+		630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissMenuAnimator.swift; path = NavigationDrawer/Sources/DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppUITests-dummy.m"; sourceTree = "<group>"; };
+		67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpApp-dummy.m"; sourceTree = "<group>"; };
+		694D7C6F02A0A1FD800DAA62DF0A90CA /* Pods-MagtonicEmpAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppUITests.modulemap"; sourceTree = "<group>"; };
+		6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpApp-umbrella.h"; sourceTree = "<group>"; };
+		6FDB8DE12778A85FB30DE50A88C43A06 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-prefix.pch"; sourceTree = "<group>"; };
+		757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationDrawer.xcconfig; sourceTree = "<group>"; };
+		76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.release.xcconfig"; sourceTree = "<group>"; };
+		7701A998A7C82D33D841ACF712B97EA2 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77F3145D52FF6F750278A9A2ADE44BBD /* Pods-MagtonicEmpApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagtonicEmpApp-frameworks.sh"; sourceTree = "<group>"; };
+		7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = NavigationDrawer/Sources/Interactor.swift; sourceTree = "<group>"; };
+		7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-umbrella.h"; sourceTree = "<group>"; };
+		8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppUITests.framework; path = "Pods-MagtonicEmpAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationDrawer-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationDrawer.framework; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppTests.framework; path = "Pods-MagtonicEmpAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AF4AA76D4E28579A97FA8138C0E5F9 /* Pods-MagtonicEmpAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppTests.modulemap"; sourceTree = "<group>"; };
+		A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationDrawer.modulemap; sourceTree = "<group>"; };
+		B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B46BE47969586E1BDAB08980BFD00A /* Pods-MagtonicEmpAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-Info.plist"; sourceTree = "<group>"; };
+		BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuHelper.swift; path = NavigationDrawer/Sources/MenuHelper.swift; sourceTree = "<group>"; };
+		C0D82F6A162B6ACC58AB0E0E07DD9B3C /* Pods-MagtonicEmpApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-Info.plist"; sourceTree = "<group>"; };
+		C6FA337F27DED5AC99345ACF12FD06EA /* Pods-MagtonicEmpAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-Info.plist"; sourceTree = "<group>"; };
+		C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentMenuAnimator.swift; path = NavigationDrawer/Sources/PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpApp.framework; path = "Pods-MagtonicEmpApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CEA33C0A9A75564F104C2318158197 /* Pods-MagtonicEmpApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EADA9546BC59D5079012DCDB34A7FB13 /* Pods-MagtonicEmpApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB29A0BCDE2F53AD7ED508A898BC59E8 /* Pods-MagtonicEmpApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpApp.modulemap"; sourceTree = "<group>"; };
+		F559B3BFC0B46730F8EB44DEC8DB43F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E72849B030A0D6575F6CAFD4CBFE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD5E35A168A625B544FB7D8E716A96A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4EEBDAAB5E60434163F570B7DB9869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CE2820A2578B71D58D35108A173A69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B84C69A1A5A3FC8685FF693D2D382E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C38FBF34BAE68F0C5617420E3AD076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F64A3F87A9E0D9BAB5379F58397EDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40727DEFCE5FE4F0AF9FE37B16E9AF45 /* Pods-MagtonicEmpApp */ = {
+			isa = PBXGroup;
+			children = (
+				EB29A0BCDE2F53AD7ED508A898BC59E8 /* Pods-MagtonicEmpApp.modulemap */,
+				E3CEA33C0A9A75564F104C2318158197 /* Pods-MagtonicEmpApp-acknowledgements.markdown */,
+				EADA9546BC59D5079012DCDB34A7FB13 /* Pods-MagtonicEmpApp-acknowledgements.plist */,
+				67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */,
+				77F3145D52FF6F750278A9A2ADE44BBD /* Pods-MagtonicEmpApp-frameworks.sh */,
+				C0D82F6A162B6ACC58AB0E0E07DD9B3C /* Pods-MagtonicEmpApp-Info.plist */,
+				6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */,
+				B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */,
+				76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */,
+			);
+			name = "Pods-MagtonicEmpApp";
+			path = "Target Support Files/Pods-MagtonicEmpApp";
+			sourceTree = "<group>";
+		};
+		6D75DFBB4BCD84CC9412EBDB89E8D8B7 /* Pods-MagtonicEmpAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				694D7C6F02A0A1FD800DAA62DF0A90CA /* Pods-MagtonicEmpAppUITests.modulemap */,
+				2E268EB7A8F48180184B3C8F6D1C85F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */,
+				F559B3BFC0B46730F8EB44DEC8DB43F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */,
+				66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */,
+				B7B46BE47969586E1BDAB08980BFD00A /* Pods-MagtonicEmpAppUITests-Info.plist */,
+				702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */,
+				9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */,
+				2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */,
+			);
+			name = "Pods-MagtonicEmpAppUITests";
+			path = "Target Support Files/Pods-MagtonicEmpAppUITests";
+			sourceTree = "<group>";
+		};
+		9807654ECF0A0C17ABBCD0FA90D1213C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40727DEFCE5FE4F0AF9FE37B16E9AF45 /* Pods-MagtonicEmpApp */,
+				A486D19E162EF83954C8491678686CFF /* Pods-MagtonicEmpAppTests */,
+				6D75DFBB4BCD84CC9412EBDB89E8D8B7 /* Pods-MagtonicEmpAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A486D19E162EF83954C8491678686CFF /* Pods-MagtonicEmpAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AF4AA76D4E28579A97FA8138C0E5F9 /* Pods-MagtonicEmpAppTests.modulemap */,
+				6FDB8DE12778A85FB30DE50A88C43A06 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */,
+				7701A998A7C82D33D841ACF712B97EA2 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */,
+				167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */,
+				C6FA337F27DED5AC99345ACF12FD06EA /* Pods-MagtonicEmpAppTests-Info.plist */,
+				1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */,
+				30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */,
+				36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */,
+			);
+			name = "Pods-MagtonicEmpAppTests";
+			path = "Target Support Files/Pods-MagtonicEmpAppTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */,
+				D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */,
+				9807654ECF0A0C17ABBCD0FA90D1213C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */,
+				CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */,
+				A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */,
+				8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */,
+				7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */,
+				BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */,
+				C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */,
+				E7B19FC3C0BD662193945DEE594FD359 /* Support Files */,
+			);
+			name = NavigationDrawer;
+			path = NavigationDrawer;
+			sourceTree = "<group>";
+		};
+		E7B19FC3C0BD662193945DEE594FD359 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */,
+				757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */,
+				9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */,
+				5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */,
+				70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */,
+				7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NavigationDrawer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14D25F5164F30DEC2B5404D7BA48D9AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED032D688C432802182844DCFB87DAC9 /* Pods-MagtonicEmpApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A997DEFE8FE0CEF28007EE1C40EB207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D543221E20C427669B7CAEEA547ADC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58BBFE21690D33A07B7A7530AF3ED6F /* Pods-MagtonicEmpAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4345CAF065C23A46FEB18E99A746DFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD90013DCF025F0D0083343E6E316F07 /* Pods-MagtonicEmpAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD75F80E2DA53AD648624D68BA0609F7 /* Pods-MagtonicEmpAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D80BCD47EE3DDC32E21EDAFE6624ED9 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppTests" */;
+			buildPhases = (
+				B1D543221E20C427669B7CAEEA547ADC /* Headers */,
+				ED185300B2F5CB65EAB60C863D545B57 /* Sources */,
+				3B4EEBDAAB5E60434163F570B7DB9869 /* Frameworks */,
+				1ABAF3A2DBFB773DC002EBB770015239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9570BBF544D7B6D0B5AEC1697977DD29 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicEmpAppTests";
+			productName = "Pods-MagtonicEmpAppTests";
+			productReference = A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C27E842E31D2801DE2F26D4EC09A484C /* Pods-MagtonicEmpAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FABD62903483078BF810ED079CB6491 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppUITests" */;
+			buildPhases = (
+				C4345CAF065C23A46FEB18E99A746DFF /* Headers */,
+				AF1CC5B21DD3CDD7E5E95B48FD448862 /* Sources */,
+				08E72849B030A0D6575F6CAFD4CBFE8F /* Frameworks */,
+				E8874C561D6FE5E0A6DE0A2A7B8807EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F952F9D5F2204C253C0C6EF5551AC80 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicEmpAppUITests";
+			productName = "Pods-MagtonicEmpAppUITests";
+			productReference = 8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133CEEE4FED49FB6AD3A1B68FD683ADB /* Build configuration list for PBXNativeTarget "NavigationDrawer" */;
+			buildPhases = (
+				5A997DEFE8FE0CEF28007EE1C40EB207 /* Headers */,
+				9757826F466186E116022D50D9F462D3 /* Sources */,
+				64B84C69A1A5A3FC8685FF693D2D382E /* Frameworks */,
+				1F8B626F849ACFB1284C0E41F276B68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationDrawer;
+			productName = NavigationDrawer;
+			productReference = A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FEBC8300EF7C3A8F9AD40CDB395AF4 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */;
+			buildPhases = (
+				14D25F5164F30DEC2B5404D7BA48D9AF /* Headers */,
+				AF8C28B38A725DA55D7ACBEFF85D0C9B /* Sources */,
+				F2C38FBF34BAE68F0C5617420E3AD076 /* Frameworks */,
+				77CCA1D8FCEE40D8F5F233B5730746AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DD1DEC85D51F8B2CB97624BF85AE0D /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicEmpApp";
+			productName = "Pods-MagtonicEmpApp";
+			productReference = CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */,
+				CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */,
+				BD75F80E2DA53AD648624D68BA0609F7 /* Pods-MagtonicEmpAppTests */,
+				C27E842E31D2801DE2F26D4EC09A484C /* Pods-MagtonicEmpAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABAF3A2DBFB773DC002EBB770015239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B626F849ACFB1284C0E41F276B68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CCA1D8FCEE40D8F5F233B5730746AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8874C561D6FE5E0A6DE0A2A7B8807EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9757826F466186E116022D50D9F462D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */,
+				0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */,
+				255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */,
+				F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */,
+				3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1CC5B21DD3CDD7E5E95B48FD448862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B392D6BB76DF47DD110450B3B88884D /* Pods-MagtonicEmpAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8C28B38A725DA55D7ACBEFF85D0C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2E56EAE54841DA7F55B67EC57C25CD /* Pods-MagtonicEmpApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED185300B2F5CB65EAB60C863D545B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB0C48EB90A537C960932CEDD8B942C /* Pods-MagtonicEmpAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F952F9D5F2204C253C0C6EF5551AC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagtonicEmpApp";
+			target = CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */;
+			targetProxy = 77FE6CB4750497C48252348BBC92954E /* PBXContainerItemProxy */;
+		};
+		9570BBF544D7B6D0B5AEC1697977DD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagtonicEmpApp";
+			target = CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */;
+			targetProxy = 91033E4EDDF1BB9CE364A52F9D1AFBD6 /* PBXContainerItemProxy */;
+		};
+		C9DD1DEC85D51F8B2CB97624BF85AE0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationDrawer;
+			target = CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */;
+			targetProxy = 53522828977088DE5BE685E9EAB72EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21B7A6A723AAFC63C3538E2531D98A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationDrawer/NavigationDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer.modulemap";
+				PRODUCT_MODULE_NAME = NavigationDrawer;
+				PRODUCT_NAME = NavigationDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3554B0827CB8C90D1B584F1893C104CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37991C3CCA9D0A8C098F9D6BFAE63961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F8521A3AA1205A3D51D6FBD93CB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		556DEAE8BA38068D054EB4F8CFDC0D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationDrawer/NavigationDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer.modulemap";
+				PRODUCT_MODULE_NAME = NavigationDrawer;
+				PRODUCT_NAME = NavigationDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76A3132A5E715453CA508B8C7724FC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B698ABFF58A33CAEE932F640D12A1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECD892023DADBCBA6ED59B00CF77E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133CEEE4FED49FB6AD3A1B68FD683ADB /* Build configuration list for PBXNativeTarget "NavigationDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B7A6A723AAFC63C3538E2531D98A8F /* Debug */,
+				556DEAE8BA38068D054EB4F8CFDC0D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FEBC8300EF7C3A8F9AD40CDB395AF4 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F8521A3AA1205A3D51D6FBD93CB270 /* Debug */,
+				76A3132A5E715453CA508B8C7724FC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D80BCD47EE3DDC32E21EDAFE6624ED9 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B698ABFF58A33CAEE932F640D12A1D72 /* Debug */,
+				ECD892023DADBCBA6ED59B00CF77E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FABD62903483078BF810ED079CB6491 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3554B0827CB8C90D1B584F1893C104CB /* Debug */,
+				37991C3CCA9D0A8C098F9D6BFAE63961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
