@@ -11,11 +11,15 @@
 		47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E622A0A98000651E98 /* AppDelegate.swift */; };
 		47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E822A0A98000651E98 /* BaseViewController.swift */; };
 		47B224EC22A0A98000651E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B224EA22A0A98000651E98 /* Main.storyboard */; };
-		47B224EE22A0A98200651E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B224ED22A0A98200651E98 /* Assets.xcassets */; };
 		47B224F122A0A98200651E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B224EF22A0A98200651E98 /* LaunchScreen.storyboard */; };
 		47B224FC22A0A98200651E98 /* MagtonicEmpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224FB22A0A98200651E98 /* MagtonicEmpAppTests.swift */; };
 		47B2250722A0A98200651E98 /* MagtonicEmpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */; };
 		47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2251422A0ADFC00651E98 /* SlidingViewController.swift */; };
+		47FBB98822A4CACD0021A236 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB98A22A4CACD0021A236 /* Localizable.strings */; };
+		47FBB98E22A4CB380021A236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB99022A4CB380021A236 /* InfoPlist.strings */; };
+		47FBB99322A4EA700021A236 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBB99222A4EA700021A236 /* OpeningViewController.swift */; };
+		47FBB99522A516950021A236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB99422A516950021A236 /* Assets.xcassets */; };
+		47FBB99722A5184E0021A236 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBB99622A5184E0021A236 /* LoginViewController.swift */; };
 		7E95AFCE020A8C32ECEF8230 /* Pods_MagtonicEmpAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */; };
 		FFBBEBC7894A3196F83A14A9 /* Pods_MagtonicEmpApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +49,6 @@
 		47B224E622A0A98000651E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47B224E822A0A98000651E98 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		47B224EB22A0A98000651E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		47B224ED22A0A98200651E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B224F022A0A98200651E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B224F222A0A98200651E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B224F722A0A98200651E98 /* MagtonicEmpAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagtonicEmpAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +58,13 @@
 		47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicEmpAppUITests.swift; sourceTree = "<group>"; };
 		47B2250822A0A98200651E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B2251422A0ADFC00651E98 /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		47FBB98922A4CACD0021A236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47FBB98B22A4CAD50021A236 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		47FBB98F22A4CB380021A236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47FBB99122A4CB3B0021A236 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		47FBB99222A4EA700021A236 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		47FBB99422A516950021A236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		47FBB99622A5184E0021A236 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		784FE9BFBDB2A5496FD2AF77 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,9 +129,13 @@
 				47B224F222A0A98200651E98 /* Info.plist */,
 				47B224E622A0A98000651E98 /* AppDelegate.swift */,
 				47B224E822A0A98000651E98 /* BaseViewController.swift */,
+				47FBB99622A5184E0021A236 /* LoginViewController.swift */,
+				47FBB99222A4EA700021A236 /* OpeningViewController.swift */,
 				47B2251422A0ADFC00651E98 /* SlidingViewController.swift */,
-				47B224ED22A0A98200651E98 /* Assets.xcassets */,
+				47FBB99422A516950021A236 /* Assets.xcassets */,
+				47FBB99022A4CB380021A236 /* InfoPlist.strings */,
 				47B224EF22A0A98200651E98 /* LaunchScreen.storyboard */,
+				47FBB98A22A4CACD0021A236 /* Localizable.strings */,
 				47B224EA22A0A98000651E98 /* Main.storyboard */,
 			);
 			path = MagtonicEmpApp;
@@ -155,7 +169,6 @@
 				203F04D5C59863F61B953651 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */,
 				60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -181,6 +194,7 @@
 				47B224E022A0A97F00651E98 /* Frameworks */,
 				47B224E122A0A97F00651E98 /* Resources */,
 				B6DF060B45648B18B665E0E2 /* [CP] Embed Pods Frameworks */,
+				E17E59F65A0F5AC1BDFF8840 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +273,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 47B224DA22A0A97F00651E98;
 			productRefGroup = 47B224E422A0A98000651E98 /* Products */;
@@ -278,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B224F122A0A98200651E98 /* LaunchScreen.storyboard in Resources */,
-				47B224EE22A0A98200651E98 /* Assets.xcassets in Resources */,
+				47FBB98822A4CACD0021A236 /* Localizable.strings in Resources */,
 				47B224EC22A0A98000651E98 /* Main.storyboard in Resources */,
+				47FBB98E22A4CB380021A236 /* InfoPlist.strings in Resources */,
+				47FBB99522A516950021A236 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,17 +392,43 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NavigationDrawer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17E59F65A0F5AC1BDFF8840 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -396,7 +439,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */,
+				47FBB99322A4EA700021A236 /* OpeningViewController.swift in Sources */,
 				47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */,
+				47FBB99722A5184E0021A236 /* LoginViewController.swift in Sources */,
 				47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +494,24 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		47FBB98A22A4CACD0021A236 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FBB98922A4CACD0021A236 /* en */,
+				47FBB98B22A4CAD50021A236 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		47FBB99022A4CB380021A236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FBB98F22A4CB380021A236 /* en */,
+				47FBB99122A4CB3B0021A236 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -456,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -517,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

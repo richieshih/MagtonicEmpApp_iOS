@@ -8,9 +8,16 @@
 
 import UIKit
 import NavigationDrawer
+import GoogleMaps
 
-class BaseViewController: UIViewController, UIViewControllerTransitioningDelegate {
+class BaseViewController: UIViewController, UIViewControllerTransitioningDelegate,GMSMapViewDelegate,CLLocationManagerDelegate {
     @IBOutlet weak var titleBar: UINavigationBar!
+    
+    @IBOutlet weak var stackViewPunchCard: UIStackView!
+    
+    @IBOutlet weak var GMSMapViewGoogleMaps: GMSMapView!
+    
+    var locationManager = CLLocationManager()
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return PresentMenuAnimator()
@@ -35,7 +42,15 @@ class BaseViewController: UIViewController, UIViewControllerTransitioningDelegat
         
         print("viewDidLoad")
         
+        	//let camera = GMSCameraPosition.camera(withLatitude: 34.675483, longitude: 135.500520, zoom: 17.0)
+        //GMSMapViewGoogleMaps.camera = camera
         // Do any additional setup after loading the view.
+        GMSMapViewGoogleMaps.isMyLocationEnabled = true
+        GMSMapViewGoogleMaps.delegate = self
+        
+        self.locationManager.delegate = self
+        self.locationManager.startUpdatingLocation()
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -73,6 +88,19 @@ class BaseViewController: UIViewController, UIViewControllerTransitioningDelegat
             destinationViewController.transitioningDelegate = self
             destinationViewController.interactor = self.interactor
         }
+    }
+    
+    //Location Manager delegates
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        let location = locations.last
+        
+        let camera = GMSCameraPosition.camera(withLatitude: (location?.coordinate.latitude)!, longitude:(location?.coordinate.longitude)!, zoom:17.0)
+        GMSMapViewGoogleMaps.animate(to: camera)
+        
+        //Finally stop updating location otherwise it will come again and again in this delegate
+        self.locationManager.stopUpdatingLocation()
+        
     }
 }
 

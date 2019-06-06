@@ -20,3 +20,6 @@ target 'MagtonicEmpApp' do
 end
 
 pod 'NavigationDrawer'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+pod 'Alamofire', '~> 5.0.0-beta.5'

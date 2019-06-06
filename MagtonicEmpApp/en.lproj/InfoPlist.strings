@@ -1,0 +1,11 @@
+/* 
+  InfoPlists.strings
+  MagtonicEmpApp
+
+  Created by richie shih on 2019/6/3.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "Magtonic App";
+"CFBundleName" = "Macauto App";

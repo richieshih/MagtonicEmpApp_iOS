@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  MagtonicEmpApp
+
+  Created by richie shih on 2019/6/3.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+"MAGTONIC＿EMP_APP" = "期美行動打卡";
+"OPENING_COMPANY_NAME" = "期美科技";
+"OPENING_TITLE" = "行動出勤系統";
+
+"LOGIN_TITLE" = "期美科技行動出勤系統";
+"LOGIN_EMP_NO" = "員工工號";
+"LOGIN_PASSWORD" = "密碼";
+"LOGIN_BUTTON_LOGIN" = "登入";
+"LOGIN_BUTTON_REGISTER" = "註冊";
+"LOGIN_UUID" = "認證碼 : ";
+"LOGIN_DESCRIPTION" = "第一次使用，請輸入工號進行認證";
+"LOGIN_FAIL" = "登入失敗. 請確認您的帳號密碼是否正確.";
+"LOGIN_PROGRESS" = "登入中...";
+"LOGIN_ID_EMPTY" = "工號欄位不能為空.";
+"SERVER_ERROR" = "伺服器錯誤.";
+"COMPLETE_ERROR" = "連線過程中產生錯誤. 請再嘗試一次.";
+"DATA_LOADING" = "讀取中...";
+"DIALOG_WARNING" = "警告";

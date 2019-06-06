@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  MagtonicEmpApp
+
+  Created by richie shih on 2019/6/3.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+"MAGTONIC＿EMP_APP" = "Magtonic PunchCard";
+"OPENING_COMPANY_NAME" = "Magtonic Technology Inc.";
+"OPENING_TITLE" = "Mobile Attendance System";
+
+"LOGIN_TITLE" = "Magtonic Attendance";
+"LOGIN_EMP_NO" = "Employee No.";
+"LOGIN_PASSWORD" = "Password";
+"LOGIN_BUTTON_LOGIN" = "Login";
+"LOGIN_BUTTON_REGISTER" = "Register";
+"LOGIN_UUID" = "UUID : ";
+"LOGIN_DESCRIPTION" = "Never used before? Enter employee No. and password and register";
+"LOGIN_FAIL" = "Login fail. Please check your account and password.";
+"LOGIN_PROGRESS" = "Login...";
+"LOGIN_ID_EMPTY" = "Account can't be empty.";
+"SERVER_ERROR" = "Server error.";
+"COMPLETE_ERROR" = "Some error in your Connection. Please try again.";
+"DATA_LOADING" = "Loading...";
+"DIALOG_WARNING" = "Warning";

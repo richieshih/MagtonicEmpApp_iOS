@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF1FAD7A7143EB3D35A5013A7B33C019"
+               BlueprintIdentifier = "337C3440B57BD0395BEFF43BC3214945"
                BuildableName = "Pods_MagtonicEmpApp.framework"
                BlueprintName = "Pods-MagtonicEmpApp"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF1FAD7A7143EB3D35A5013A7B33C019"
+            BlueprintIdentifier = "337C3440B57BD0395BEFF43BC3214945"
             BuildableName = "Pods_MagtonicEmpApp.framework"
             BlueprintName = "Pods-MagtonicEmpApp"
             ReferencedContainer = "container:Pods.xcodeproj">

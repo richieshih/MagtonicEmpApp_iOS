@@ -6,91 +6,224 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+		BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */; };
-		15CE2820A2578B71D58D35108A173A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1B392D6BB76DF47DD110450B3B88884D /* Pods-MagtonicEmpAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */; };
-		255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */; };
-		3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */; };
-		5AD5E35A168A625B544FB7D8E716A96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		78F64A3F87A9E0D9BAB5379F58397EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */; };
-		DD90013DCF025F0D0083343E6E316F07 /* Pods-MagtonicEmpAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDB0C48EB90A537C960932CEDD8B942C /* Pods-MagtonicEmpAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */; };
-		E58BBFE21690D33A07B7A7530AF3ED6F /* Pods-MagtonicEmpAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB2E56EAE54841DA7F55B67EC57C25CD /* Pods-MagtonicEmpApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */; };
-		ED032D688C432802182844DCFB87DAC9 /* Pods-MagtonicEmpApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */; };
+		0A2369A730F869049F86BA1C50731299 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E77B4BA0D3616457F825F65D48EF2 /* MultipartFormData.swift */; };
+		0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D328659374BE0F4184CC792C783A8 /* Interactor.swift */; };
+		15CE2820A2578B71D58D35108A173A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */; };
+		1B392D6BB76DF47DD110450B3B88884D /* Pods-MagtonicEmpAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1924E7A2AA4E0F8083ACC40BF2E782EC /* Pods-MagtonicEmpAppUITests-dummy.m */; };
+		1D36F64B087BD181A325246C0724C035 /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE02A4C3AAB9578821461A78C53EAE8 /* Protector.swift */; };
+		255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C620D1784A3AD3C4751FBF5D0AE3DFC /* MenuHelper.swift */; };
+		2F3DC18CA95CF68B498C8B73D9877AC9 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBAEDFE22874C73EAD8545B1FE8910C /* HTTPHeaders.swift */; };
+		33B84C7151ACC9D760583616325FF3E7 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBFB419385CC57D35A00D01F762F79 /* DispatchQueue+Alamofire.swift */; };
+		3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCEA37081D7790ED8D5C41D4086741 /* PresentMenuAnimator.swift */; };
+		393760E3DA927EAA70D72B5899AB2824 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5906E68ACB36466028AD3BF5C8868 /* ParameterEncoding.swift */; };
+		3C757CB04009A68857B94438BF1AD284 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A54A66C3BF2B1C0508BFAB42BF8AB4 /* OperationQueue+Alamofire.swift */; };
+		3F77368459FCBBD9A9680C0E3CB4A2EB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2681FB814BB2CB8BE0CDB7A0708A9 /* URLRequest+Alamofire.swift */; };
+		416301B99D1AC5B20335AD81F4C9D84A /* AFResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFD4219AB53F5241F5DE59F0D6DCDB /* AFResult.swift */; };
+		447EECA096208E6EBE1D60E51CD3B7E6 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1E89E504B9EC08475C3DF4AD893A3 /* RedirectHandler.swift */; };
+		49D44CD143DA66917B13D1EBAADF499F /* Pods-MagtonicEmpApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89722B937258CC0E793ECE5CEAC3A4D0 /* Pods-MagtonicEmpApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C0FBEF7CCC2FC722C2377C650720EB0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64685109A764B0949315465086F775C1 /* HTTPMethod.swift */; };
+		59E55A8E327F78DE82D913C7F2555A4A /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A9882C39E811280082D95A8ADCC4A0 /* ServerTrustEvaluation.swift */; };
+		5AD5E35A168A625B544FB7D8E716A96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */; };
+		6994213E9530A50BE03B1AE7610FD042 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D772300116549F4B676957BE9135F0 /* ResponseSerialization.swift */; };
+		6AB8BDD4C9EA7FD1FD2625C8AE19BFF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */; };
+		75D2E9FC953708B8E21F8B06ED6EFE51 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081E84B585BB451705D96B8EDADD33F /* Session.swift */; };
+		76A7649F3E740E03D2944DCDC2143881 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78451CA08A504209B4CFF8241747F9CD /* URLConvertible+URLRequestConvertible.swift */; };
+		76BBD4616C7376EE546895EEA4894190 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA1F09D0F0621326692F6CCC228951 /* Notifications.swift */; };
+		834547FCE9F21795A1541381C15553DD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB6D09CE34F8651DC5E5CC2882FF68 /* Validation.swift */; };
+		86220456689EC309DB8E7BA1D3A66477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */; };
+		87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */; };
+		8AD93BE632D0608CCCA1FBCFC63BC66B /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C3332EE2A4EA992CBC54C1D6CE7F6 /* MultipartUpload.swift */; };
+		951F9FA24AD53103A5A98E5180296509 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FD1C01D5556B6C158FF61012366A3 /* RetryPolicy.swift */; };
+		96C780174FA5C2FE183C24CBCD7FCD5D /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559FC653ECDB0C6D16AA5CF8C0468B6 /* RequestInterceptor.swift */; };
+		A90D7B103972439C4CBF41649B08AAF0 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492201DECBB00AB06F9D9D091BC4A64A /* AFError.swift */; };
+		A9EE308B2D941BAF2166129297A047B1 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE894E4659A69F1235465EAF40C54A0C /* CachedResponseHandler.swift */; };
+		AACFFC19DDEF5EEC0503EC184F212230 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5841F362DCB526258DA7B7D2C43CB9 /* SessionDelegate.swift */; };
+		B305E9D96C331E3F4B551B75B5302F87 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60A820F004207AFE2D02AB9E2533E8 /* Alamofire.swift */; };
+		B3F60459F07BBCA1FDC5D4381725624C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E90C78FD6FCFBB83A687CCB146C66C /* NetworkReachabilityManager.swift */; };
+		BF39148BF2BFD126BD707B82A9BBAF95 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8950F257B551D6D97A98D1340541F5 /* Response.swift */; };
+		C151F1B3F8274837EFF34C8D2E9D5BB3 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 690937EC4ABCABC70C98CDC3CCB07EDE /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55B4FADFF22B8AD07E58F85030CA35D /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133B0A43E70E24C9F28A5DB53A8EE31 /* AlamofireExtended.swift */; };
+		C7EA23BA12A962DCDA752C3BF64C01B3 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DFDB5A1CBD73DB622396D9497E553B /* ParameterEncoder.swift */; };
+		CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B88FEED2D359C3D447DF3071BE39E84 /* NavigationDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE1253B025D313B46AEB364DE6C7BDC7 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A499182B8C63CAF5EDAD07CBD5125E2 /* Alamofire-dummy.m */; };
+		D588D7E739F28115CDB1CCC2B9C22100 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D00F862128F8591E2DD39C90F19DE /* EventMonitor.swift */; };
+		D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847699A8B51C765404440BA085B5F9E /* DismissMenuAnimator.swift */; };
+		D8C03A9CC87596088C56CB7D10AE1F28 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11B39A82DCFDB4101EC1FC0102193EA /* URLSessionConfiguration+Alamofire.swift */; };
+		DD90013DCF025F0D0083343E6E316F07 /* Pods-MagtonicEmpAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5AC27AB799F2EEF3F611AA1425607B /* Pods-MagtonicEmpAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB0C48EB90A537C960932CEDD8B942C /* Pods-MagtonicEmpAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEA65D63DF5870A732E9CE2B09CC6E /* Pods-MagtonicEmpAppTests-dummy.m */; };
+		E58BBFE21690D33A07B7A7530AF3ED6F /* Pods-MagtonicEmpAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACF886FB2D3832ADDAF0A165FB4DD75 /* Pods-MagtonicEmpAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92945B4C2A5FB5F97C13E1EBC050911F /* NavigationDrawer-dummy.m */; };
+		F3C3AB17FEDA328F1AC74A99D2EFE0BD /* Pods-MagtonicEmpApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE1C21055D5B2C758094705D4BC8F45 /* Pods-MagtonicEmpApp-dummy.m */; };
+		F574A811FFB1937C78B3136C61279FC8 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3F259D74139A4865E3BC2ABE5D348 /* RequestTaskMap.swift */; };
+		FA19F85858F33B317638806875A3F64D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7406BEDD76253456C44069C53C489 /* Request.swift */; };
+		FA548C954F24AE41DC616F6FA6A764A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B497488E3314801E4FB0C8009F9FDF /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53522828977088DE5BE685E9EAB72EC4 /* PBXContainerItemProxy */ = {
+		63EF65D4A5DA6048E7AE8B60532E2B2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCD3989423DB0A1649B9D9DB1B9F2D18;
-			remoteInfo = NavigationDrawer;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
+		};
+		6869CAD74F574E75BDEC606CB23177BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5455B208045065E5218D2C58C300B938;
+			remoteInfo = Alamofire;
+		};
+		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
+			remoteInfo = GoogleMaps;
 		};
 		77FE6CB4750497C48252348BBC92954E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF1FAD7A7143EB3D35A5013A7B33C019;
+			remoteGlobalIDString = 337C3440B57BD0395BEFF43BC3214945;
 			remoteInfo = "Pods-MagtonicEmpApp";
 		};
 		91033E4EDDF1BB9CE364A52F9D1AFBD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF1FAD7A7143EB3D35A5013A7B33C019;
+			remoteGlobalIDString = 337C3440B57BD0395BEFF43BC3214945;
 			remoteInfo = "Pods-MagtonicEmpApp";
+		};
+		95C5E8FB8678201A06ABB47220BD5C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD3989423DB0A1649B9D9DB1B9F2D18;
+			remoteInfo = NavigationDrawer;
+		};
+		FFC82A313D0C06C58A2C604F5F192183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD73B07D0A43E21F0EE0F993215B9D8;
+			remoteInfo = GooglePlaces;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppTests-dummy.m"; sourceTree = "<group>"; };
-		1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppTests-umbrella.h"; sourceTree = "<group>"; };
-		2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2E268EB7A8F48180184B3C8F6D1C85F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationDrawer-Info.plist"; sourceTree = "<group>"; };
-		630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissMenuAnimator.swift; path = NavigationDrawer/Sources/DismissMenuAnimator.swift; sourceTree = "<group>"; };
-		66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppUITests-dummy.m"; sourceTree = "<group>"; };
-		67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpApp-dummy.m"; sourceTree = "<group>"; };
-		694D7C6F02A0A1FD800DAA62DF0A90CA /* Pods-MagtonicEmpAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppUITests.modulemap"; sourceTree = "<group>"; };
-		6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpApp-umbrella.h"; sourceTree = "<group>"; };
-		6FDB8DE12778A85FB30DE50A88C43A06 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-prefix.pch"; sourceTree = "<group>"; };
-		757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationDrawer.xcconfig; sourceTree = "<group>"; };
-		76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.release.xcconfig"; sourceTree = "<group>"; };
-		7701A998A7C82D33D841ACF712B97EA2 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		77F3145D52FF6F750278A9A2ADE44BBD /* Pods-MagtonicEmpApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagtonicEmpApp-frameworks.sh"; sourceTree = "<group>"; };
-		7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = NavigationDrawer/Sources/Interactor.swift; sourceTree = "<group>"; };
-		7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-umbrella.h"; sourceTree = "<group>"; };
-		8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppUITests.framework; path = "Pods-MagtonicEmpAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationDrawer-dummy.m"; sourceTree = "<group>"; };
+		0DA2681FB814BB2CB8BE0CDB7A0708A9 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		0E1CAA057AFDE591FF9914508EADFB40 /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
+		10E90C78FD6FCFBB83A687CCB146C66C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		12930DB3B47388B6A22E90DF8875A5D2 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1495664CC0A55B8B4FFC212307B1E2DC /* Pods_MagtonicEmpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpApp.framework; path = "Pods-MagtonicEmpApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DFDB5A1CBD73DB622396D9497E553B /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		1924E7A2AA4E0F8083ACC40BF2E782EC /* Pods-MagtonicEmpAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppUITests-dummy.m"; sourceTree = "<group>"; };
+		1A1F595005401C59CCCED890EB1B0952 /* Pods-MagtonicEmpApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagtonicEmpApp-resources.sh"; sourceTree = "<group>"; };
+		1A499182B8C63CAF5EDAD07CBD5125E2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		1E570E14FEE66BD7A0180037EFFB7953 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F08A8F36F14D4AE88FA5F7FFA4891E0 /* NavigationDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationDrawer.modulemap; sourceTree = "<group>"; };
+		2195DBB96C56303D08BE86E3FEE4E5DD /* NavigationDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-prefix.pch"; sourceTree = "<group>"; };
+		22A9882C39E811280082D95A8ADCC4A0 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		2EE0A773E7374FAAAEF5FCB8E120C601 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		32D772300116549F4B676957BE9135F0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3431D66C765BBA6EEE271739C706C4A8 /* Pods-MagtonicEmpApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpApp.modulemap"; sourceTree = "<group>"; };
+		35EFD4219AB53F5241F5DE59F0D6DCDB /* AFResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFResult.swift; path = Source/AFResult.swift; sourceTree = "<group>"; };
+		361E46622312897B924B59C05C25197D /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A5906E68ACB36466028AD3BF5C8868 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		3A76E7C047021E10855CA2654C269068 /* Pods-MagtonicEmpAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-Info.plist"; sourceTree = "<group>"; };
+		3C8950F257B551D6D97A98D1340541F5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		40BC987D0E1D8FBC8DF777C4C9BBB680 /* Pods-MagtonicEmpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.release.xcconfig"; sourceTree = "<group>"; };
+		4305495EC4607B1586923280130678F4 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		4847699A8B51C765404440BA085B5F9E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissMenuAnimator.swift; path = NavigationDrawer/Sources/DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		492201DECBB00AB06F9D9D091BC4A64A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4BBEA65D63DF5870A732E9CE2B09CC6E /* Pods-MagtonicEmpAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpAppTests-dummy.m"; sourceTree = "<group>"; };
+		4C620D1784A3AD3C4751FBF5D0AE3DFC /* MenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuHelper.swift; path = NavigationDrawer/Sources/MenuHelper.swift; sourceTree = "<group>"; };
+		4F5AC27AB799F2EEF3F611AA1425607B /* Pods-MagtonicEmpAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		5081E84B585BB451705D96B8EDADD33F /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		5484A0DEDE2E8AD0E04D0DE62DE02A3C /* Pods-MagtonicEmpApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-Info.plist"; sourceTree = "<group>"; };
+		5540D59AC538DFAF9146DCA2C986B3CB /* Pods-MagtonicEmpAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppTests.modulemap"; sourceTree = "<group>"; };
+		5B88FEED2D359C3D447DF3071BE39E84 /* NavigationDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-umbrella.h"; sourceTree = "<group>"; };
+		5D9B5BD71EB55CF864A85C6137F46AE3 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64685109A764B0949315465086F775C1 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		690937EC4ABCABC70C98CDC3CCB07EDE /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6B5A3E54C449CE4E5C2E16FCDC1B6B06 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6DBAEDFE22874C73EAD8545B1FE8910C /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		72876ED21791F4A6E908AB0E2546B61A /* Pods-MagtonicEmpApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagtonicEmpApp-frameworks.sh"; sourceTree = "<group>"; };
+		75B497488E3314801E4FB0C8009F9FDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		76065F6EF3180CC9A8E23206022005F8 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78451CA08A504209B4CFF8241747F9CD /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		78BA1F09D0F0621326692F6CCC228951 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		7A50F0763F2E1CA7E7A050831E9F366A /* Pods-MagtonicEmpApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B7E77B4BA0D3616457F825F65D48EF2 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		8092766766129456AF418B91C9A8D03E /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		84F1E89E504B9EC08475C3DF4AD893A3 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		85B2EE30FB1B0FC6C11E75CB53F17FF9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		896D624F562E76714D8BC057A4527045 /* NavigationDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationDrawer-Info.plist"; sourceTree = "<group>"; };
+		89722B937258CC0E793ECE5CEAC3A4D0 /* Pods-MagtonicEmpApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpApp-umbrella.h"; sourceTree = "<group>"; };
+		8ACF886FB2D3832ADDAF0A165FB4DD75 /* Pods-MagtonicEmpAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicEmpAppTests-umbrella.h"; sourceTree = "<group>"; };
+		8BAA2BD49145C37FB1BF2949C4F9F469 /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationDrawer.framework; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C60A820F004207AFE2D02AB9E2533E8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8C8DB89768DDB427F595B1324EA059A1 /* Pods-MagtonicEmpAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppUITests.modulemap"; sourceTree = "<group>"; };
+		8CA3F259D74139A4865E3BC2ABE5D348 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		8E989469443762BFE327DA172EBD28D9 /* NavigationDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationDrawer.xcconfig; sourceTree = "<group>"; };
+		92945B4C2A5FB5F97C13E1EBC050911F /* NavigationDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationDrawer-dummy.m"; sourceTree = "<group>"; };
+		94E110868B6B0135F4AEADEDDC53AE20 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		9721B09E31CC00910A06D33E30239B92 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		9AEB6D09CE34F8651DC5E5CC2882FF68 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationDrawer.framework; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppTests.framework; path = "Pods-MagtonicEmpAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3AF4AA76D4E28579A97FA8138C0E5F9 /* Pods-MagtonicEmpAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpAppTests.modulemap"; sourceTree = "<group>"; };
-		A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationDrawer.modulemap; sourceTree = "<group>"; };
-		B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.debug.xcconfig"; sourceTree = "<group>"; };
-		B7B46BE47969586E1BDAB08980BFD00A /* Pods-MagtonicEmpAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-Info.plist"; sourceTree = "<group>"; };
-		BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuHelper.swift; path = NavigationDrawer/Sources/MenuHelper.swift; sourceTree = "<group>"; };
-		C0D82F6A162B6ACC58AB0E0E07DD9B3C /* Pods-MagtonicEmpApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-Info.plist"; sourceTree = "<group>"; };
-		C6FA337F27DED5AC99345ACF12FD06EA /* Pods-MagtonicEmpAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppTests-Info.plist"; sourceTree = "<group>"; };
-		C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentMenuAnimator.swift; path = NavigationDrawer/Sources/PresentMenuAnimator.swift; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpApp.framework; path = "Pods-MagtonicEmpApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3CEA33C0A9A75564F104C2318158197 /* Pods-MagtonicEmpApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EADA9546BC59D5079012DCDB34A7FB13 /* Pods-MagtonicEmpApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB29A0BCDE2F53AD7ED508A898BC59E8 /* Pods-MagtonicEmpApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicEmpApp.modulemap"; sourceTree = "<group>"; };
-		F559B3BFC0B46730F8EB44DEC8DB43F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A396194708F05BD236BACBF9A01C9863 /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppUITests.framework; path = "Pods-MagtonicEmpAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A54A66C3BF2B1C0508BFAB42BF8AB4 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		A6390641D6E30B444AEC1A1930706F34 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8BCEA37081D7790ED8D5C41D4086741 /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentMenuAnimator.swift; path = NavigationDrawer/Sources/PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		AA7FD1C01D5556B6C158FF61012366A3 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		AE894E4659A69F1235465EAF40C54A0C /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		B133B0A43E70E24C9F28A5DB53A8EE31 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		B41D00F862128F8591E2DD39C90F19DE /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		B559FC653ECDB0C6D16AA5CF8C0468B6 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		B8F955F12896EEE3C6BB3EA781D24ED4 /* Pods-MagtonicEmpApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicEmpApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC5C3332EE2A4EA992CBC54C1D6CE7F6 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		BE178B701F639D3882A6D34C7493A86C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCBFB419385CC57D35A00D01F762F79 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C05D328659374BE0F4184CC792C783A8 /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = NavigationDrawer/Sources/Interactor.swift; sourceTree = "<group>"; };
+		C1E7406BEDD76253456C44069C53C489 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C5504EDD2416A3949E00E50F32FDB7F1 /* Pods-MagtonicEmpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5F501C7254D0AC995B222BB18EE4EFE /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C9E4F5B8AD81C108CC32E8F8A4B2A6C5 /* Pods-MagtonicEmpAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicEmpAppUITests-Info.plist"; sourceTree = "<group>"; };
+		CDA1806FF6359AAC2E76B3F071864FAD /* Pods-MagtonicEmpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D11B39A82DCFDB4101EC1FC0102193EA /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		DDC61F137EEF2F6147EFF209B5CAFF90 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		EEE1C21055D5B2C758094705D4BC8F45 /* Pods-MagtonicEmpApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicEmpApp-dummy.m"; sourceTree = "<group>"; };
+		F30EC8FA41C892020676EA6C095E4D27 /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F649D25DEDD242C922DF931A3C7FFFE7 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE02A4C3AAB9578821461A78C53EAE8 /* Protector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protector.swift; path = Source/Protector.swift; sourceTree = "<group>"; };
+		FD96BD9B69C72C4A1AB0040BC9D57A6E /* Pods_MagtonicEmpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicEmpAppTests.framework; path = "Pods-MagtonicEmpAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC679CD02AA19602A6B59AA5C3BF4BD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		FE5841F362DCB526258DA7B7D2C43CB9 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +243,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45A19856BC4CA01DA533A283E4DDD891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB8BDD4C9EA7FD1FD2625C8AE19BFF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64B84C69A1A5A3FC8685FF693D2D382E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,160 +259,311 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C38FBF34BAE68F0C5617420E3AD076 /* Frameworks */ = {
+		F0385CFD0F08A68A00EEABF0118CB3EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F64A3F87A9E0D9BAB5379F58397EDB /* Foundation.framework in Frameworks */,
+				FA548C954F24AE41DC616F6FA6A764A4 /* CFNetwork.framework in Frameworks */,
+				86220456689EC309DB8E7BA1D3A66477 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40727DEFCE5FE4F0AF9FE37B16E9AF45 /* Pods-MagtonicEmpApp */ = {
+		02FE2E2EA69CC3E68A5E6E05272F2DEB /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				EB29A0BCDE2F53AD7ED508A898BC59E8 /* Pods-MagtonicEmpApp.modulemap */,
-				E3CEA33C0A9A75564F104C2318158197 /* Pods-MagtonicEmpApp-acknowledgements.markdown */,
-				EADA9546BC59D5079012DCDB34A7FB13 /* Pods-MagtonicEmpApp-acknowledgements.plist */,
-				67CE99D91B13351D7D4A790E76C3047A /* Pods-MagtonicEmpApp-dummy.m */,
-				77F3145D52FF6F750278A9A2ADE44BBD /* Pods-MagtonicEmpApp-frameworks.sh */,
-				C0D82F6A162B6ACC58AB0E0E07DD9B3C /* Pods-MagtonicEmpApp-Info.plist */,
-				6F63E0B1D9588377B8C058516F24D60E /* Pods-MagtonicEmpApp-umbrella.h */,
-				B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */,
-				76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */,
+				34AC2EF315BE5A8FABD75CFEE64F7125 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBC880584FE2DFF823BCC5863C234694 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33C0D40DD3FC65F0D07C9CFDD07ECD0D /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				02FE2E2EA69CC3E68A5E6E05272F2DEB /* Base */,
+				763595BED0919FD62202231C0EF0C1CC /* Maps */,
+				407D4E97C44DD64BBBE85DA156157976 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		34AC2EF315BE5A8FABD75CFEE64F7125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC679CD02AA19602A6B59AA5C3BF4BD /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5C3566F4D359BFFD3A2A551D3F1153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE178B701F639D3882A6D34C7493A86C /* Alamofire.framework */,
+				8BAA2BD49145C37FB1BF2949C4F9F469 /* NavigationDrawer.framework */,
+				1495664CC0A55B8B4FFC212307B1E2DC /* Pods_MagtonicEmpApp.framework */,
+				FD96BD9B69C72C4A1AB0040BC9D57A6E /* Pods_MagtonicEmpAppTests.framework */,
+				A396194708F05BD236BACBF9A01C9863 /* Pods_MagtonicEmpAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407D4E97C44DD64BBBE85DA156157976 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE0A773E7374FAAAEF5FCB8E120C601 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		62639055E018CA4413EF0B1588432E55 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				492201DECBB00AB06F9D9D091BC4A64A /* AFError.swift */,
+				35EFD4219AB53F5241F5DE59F0D6DCDB /* AFResult.swift */,
+				8C60A820F004207AFE2D02AB9E2533E8 /* Alamofire.swift */,
+				B133B0A43E70E24C9F28A5DB53A8EE31 /* AlamofireExtended.swift */,
+				AE894E4659A69F1235465EAF40C54A0C /* CachedResponseHandler.swift */,
+				BFCBFB419385CC57D35A00D01F762F79 /* DispatchQueue+Alamofire.swift */,
+				B41D00F862128F8591E2DD39C90F19DE /* EventMonitor.swift */,
+				6DBAEDFE22874C73EAD8545B1FE8910C /* HTTPHeaders.swift */,
+				64685109A764B0949315465086F775C1 /* HTTPMethod.swift */,
+				7B7E77B4BA0D3616457F825F65D48EF2 /* MultipartFormData.swift */,
+				BC5C3332EE2A4EA992CBC54C1D6CE7F6 /* MultipartUpload.swift */,
+				10E90C78FD6FCFBB83A687CCB146C66C /* NetworkReachabilityManager.swift */,
+				78BA1F09D0F0621326692F6CCC228951 /* Notifications.swift */,
+				A5A54A66C3BF2B1C0508BFAB42BF8AB4 /* OperationQueue+Alamofire.swift */,
+				17DFDB5A1CBD73DB622396D9497E553B /* ParameterEncoder.swift */,
+				38A5906E68ACB36466028AD3BF5C8868 /* ParameterEncoding.swift */,
+				FBE02A4C3AAB9578821461A78C53EAE8 /* Protector.swift */,
+				84F1E89E504B9EC08475C3DF4AD893A3 /* RedirectHandler.swift */,
+				C1E7406BEDD76253456C44069C53C489 /* Request.swift */,
+				B559FC653ECDB0C6D16AA5CF8C0468B6 /* RequestInterceptor.swift */,
+				8CA3F259D74139A4865E3BC2ABE5D348 /* RequestTaskMap.swift */,
+				3C8950F257B551D6D97A98D1340541F5 /* Response.swift */,
+				32D772300116549F4B676957BE9135F0 /* ResponseSerialization.swift */,
+				AA7FD1C01D5556B6C158FF61012366A3 /* RetryPolicy.swift */,
+				22A9882C39E811280082D95A8ADCC4A0 /* ServerTrustEvaluation.swift */,
+				5081E84B585BB451705D96B8EDADD33F /* Session.swift */,
+				FE5841F362DCB526258DA7B7D2C43CB9 /* SessionDelegate.swift */,
+				78451CA08A504209B4CFF8241747F9CD /* URLConvertible+URLRequestConvertible.swift */,
+				0DA2681FB814BB2CB8BE0CDB7A0708A9 /* URLRequest+Alamofire.swift */,
+				D11B39A82DCFDB4101EC1FC0102193EA /* URLSessionConfiguration+Alamofire.swift */,
+				9AEB6D09CE34F8651DC5E5CC2882FF68 /* Validation.swift */,
+				7455A14575379933A36170E5DED32E65 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		6CDFF0842ED5B25AAD0551A5ADBAD0F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1CAA057AFDE591FF9914508EADFB40 /* GooglePlaces.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		6F4F858720BA3CD479B1F6F23F942CF3 /* NavigationDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				4847699A8B51C765404440BA085B5F9E /* DismissMenuAnimator.swift */,
+				C05D328659374BE0F4184CC792C783A8 /* Interactor.swift */,
+				4C620D1784A3AD3C4751FBF5D0AE3DFC /* MenuHelper.swift */,
+				A8BCEA37081D7790ED8D5C41D4086741 /* PresentMenuAnimator.swift */,
+				E3A7A817F7FD718362F2645B04824EF0 /* Support Files */,
+			);
+			name = NavigationDrawer;
+			path = NavigationDrawer;
+			sourceTree = "<group>";
+		};
+		7455A14575379933A36170E5DED32E65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F501C7254D0AC995B222BB18EE4EFE /* Alamofire.modulemap */,
+				9721B09E31CC00910A06D33E30239B92 /* Alamofire.xcconfig */,
+				1A499182B8C63CAF5EDAD07CBD5125E2 /* Alamofire-dummy.m */,
+				8092766766129456AF418B91C9A8D03E /* Alamofire-Info.plist */,
+				6B5A3E54C449CE4E5C2E16FCDC1B6B06 /* Alamofire-prefix.pch */,
+				690937EC4ABCABC70C98CDC3CCB07EDE /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		763595BED0919FD62202231C0EF0C1CC /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7CB58E3094F0E65D5FE3EEF51A78AAB3 /* Frameworks */,
+				FD155A0892AE5FEE58A82E06BC2DC84D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		76BB2E77FBE73DD280FEAF3E8D90CBD9 /* Pods-MagtonicEmpApp */ = {
+			isa = PBXGroup;
+			children = (
+				3431D66C765BBA6EEE271739C706C4A8 /* Pods-MagtonicEmpApp.modulemap */,
+				B8F955F12896EEE3C6BB3EA781D24ED4 /* Pods-MagtonicEmpApp-acknowledgements.markdown */,
+				7A50F0763F2E1CA7E7A050831E9F366A /* Pods-MagtonicEmpApp-acknowledgements.plist */,
+				EEE1C21055D5B2C758094705D4BC8F45 /* Pods-MagtonicEmpApp-dummy.m */,
+				72876ED21791F4A6E908AB0E2546B61A /* Pods-MagtonicEmpApp-frameworks.sh */,
+				5484A0DEDE2E8AD0E04D0DE62DE02A3C /* Pods-MagtonicEmpApp-Info.plist */,
+				1A1F595005401C59CCCED890EB1B0952 /* Pods-MagtonicEmpApp-resources.sh */,
+				89722B937258CC0E793ECE5CEAC3A4D0 /* Pods-MagtonicEmpApp-umbrella.h */,
+				CDA1806FF6359AAC2E76B3F071864FAD /* Pods-MagtonicEmpApp.debug.xcconfig */,
+				40BC987D0E1D8FBC8DF777C4C9BBB680 /* Pods-MagtonicEmpApp.release.xcconfig */,
 			);
 			name = "Pods-MagtonicEmpApp";
 			path = "Target Support Files/Pods-MagtonicEmpApp";
 			sourceTree = "<group>";
 		};
-		6D75DFBB4BCD84CC9412EBDB89E8D8B7 /* Pods-MagtonicEmpAppUITests */ = {
+		7CB58E3094F0E65D5FE3EEF51A78AAB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				694D7C6F02A0A1FD800DAA62DF0A90CA /* Pods-MagtonicEmpAppUITests.modulemap */,
-				2E268EB7A8F48180184B3C8F6D1C85F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */,
-				F559B3BFC0B46730F8EB44DEC8DB43F5 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */,
-				66F8F9CBA43D7801D948D7F080A6691A /* Pods-MagtonicEmpAppUITests-dummy.m */,
-				B7B46BE47969586E1BDAB08980BFD00A /* Pods-MagtonicEmpAppUITests-Info.plist */,
-				702BC17880FAE31BFBB0A69645A855BE /* Pods-MagtonicEmpAppUITests-umbrella.h */,
-				9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */,
-				2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */,
+				94E110868B6B0135F4AEADEDDC53AE20 /* GoogleMaps.framework */,
+				12930DB3B47388B6A22E90DF8875A5D2 /* GoogleMapsCore.framework */,
 			);
-			name = "Pods-MagtonicEmpAppUITests";
-			path = "Target Support Files/Pods-MagtonicEmpAppUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9807654ECF0A0C17ABBCD0FA90D1213C /* Targets Support Files */ = {
+		846221A07083017FF530C99607F5F6CF /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				40727DEFCE5FE4F0AF9FE37B16E9AF45 /* Pods-MagtonicEmpApp */,
-				A486D19E162EF83954C8491678686CFF /* Pods-MagtonicEmpAppTests */,
-				6D75DFBB4BCD84CC9412EBDB89E8D8B7 /* Pods-MagtonicEmpAppUITests */,
+				976A80B5D5723985033B7D1178AA2239 /* Frameworks */,
+				D2685397700C60FDAEF5718E1E9BB315 /* Resources */,
+				6CDFF0842ED5B25AAD0551A5ADBAD0F6 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		9594E7C602CA76CD68B87D3DF22A85A0 /* Pods-MagtonicEmpAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A486D19E162EF83954C8491678686CFF /* Pods-MagtonicEmpAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				A3AF4AA76D4E28579A97FA8138C0E5F9 /* Pods-MagtonicEmpAppTests.modulemap */,
-				6FDB8DE12778A85FB30DE50A88C43A06 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */,
-				7701A998A7C82D33D841ACF712B97EA2 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */,
-				167BA5F4C55B821196AA5B3E7C80ABB1 /* Pods-MagtonicEmpAppTests-dummy.m */,
-				C6FA337F27DED5AC99345ACF12FD06EA /* Pods-MagtonicEmpAppTests-Info.plist */,
-				1A8894A1263AA80231B6CF05719BC12A /* Pods-MagtonicEmpAppTests-umbrella.h */,
-				30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */,
-				36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */,
+				5540D59AC538DFAF9146DCA2C986B3CB /* Pods-MagtonicEmpAppTests.modulemap */,
+				76065F6EF3180CC9A8E23206022005F8 /* Pods-MagtonicEmpAppTests-acknowledgements.markdown */,
+				5D9B5BD71EB55CF864A85C6137F46AE3 /* Pods-MagtonicEmpAppTests-acknowledgements.plist */,
+				4BBEA65D63DF5870A732E9CE2B09CC6E /* Pods-MagtonicEmpAppTests-dummy.m */,
+				3A76E7C047021E10855CA2654C269068 /* Pods-MagtonicEmpAppTests-Info.plist */,
+				8ACF886FB2D3832ADDAF0A165FB4DD75 /* Pods-MagtonicEmpAppTests-umbrella.h */,
+				F649D25DEDD242C922DF931A3C7FFFE7 /* Pods-MagtonicEmpAppTests.debug.xcconfig */,
+				C5504EDD2416A3949E00E50F32FDB7F1 /* Pods-MagtonicEmpAppTests.release.xcconfig */,
 			);
 			name = "Pods-MagtonicEmpAppTests";
 			path = "Target Support Files/Pods-MagtonicEmpAppTests";
+			sourceTree = "<group>";
+		};
+		96DF1A6BDCEFC0B07D377612BF9BA75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62639055E018CA4413EF0B1588432E55 /* Alamofire */,
+				33C0D40DD3FC65F0D07C9CFDD07ECD0D /* GoogleMaps */,
+				846221A07083017FF530C99607F5F6CF /* GooglePlaces */,
+				6F4F858720BA3CD479B1F6F23F942CF3 /* NavigationDrawer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		976A80B5D5723985033B7D1178AA2239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC61F137EEF2F6147EFF209B5CAFF90 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C86C797D1785F150ACD22D04D23786D7 /* Pods-MagtonicEmpAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C8DB89768DDB427F595B1324EA059A1 /* Pods-MagtonicEmpAppUITests.modulemap */,
+				361E46622312897B924B59C05C25197D /* Pods-MagtonicEmpAppUITests-acknowledgements.markdown */,
+				A6390641D6E30B444AEC1A1930706F34 /* Pods-MagtonicEmpAppUITests-acknowledgements.plist */,
+				1924E7A2AA4E0F8083ACC40BF2E782EC /* Pods-MagtonicEmpAppUITests-dummy.m */,
+				C9E4F5B8AD81C108CC32E8F8A4B2A6C5 /* Pods-MagtonicEmpAppUITests-Info.plist */,
+				4F5AC27AB799F2EEF3F611AA1425607B /* Pods-MagtonicEmpAppUITests-umbrella.h */,
+				1E570E14FEE66BD7A0180037EFFB7953 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */,
+				F30EC8FA41C892020676EA6C095E4D27 /* Pods-MagtonicEmpAppUITests.release.xcconfig */,
+			);
+			name = "Pods-MagtonicEmpAppUITests";
+			path = "Target Support Files/Pods-MagtonicEmpAppUITests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */,
-				D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */,
-				9807654ECF0A0C17ABBCD0FA90D1213C /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				96DF1A6BDCEFC0B07D377612BF9BA75E /* Pods */,
+				3C5C3566F4D359BFFD3A2A551D3F1153 /* Products */,
+				E9A29E466905F868209B92E7CCBC5CCF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D2685397700C60FDAEF5718E1E9BB315 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				4305495EC4607B1586923280130678F4 /* GooglePlaces.bundle */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */ = {
+		E3A7A817F7FD718362F2645B04824EF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */,
-				CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */,
-				A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */,
-				8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */ = {
-			isa = PBXGroup;
-			children = (
-				630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */,
-				7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */,
-				BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */,
-				C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */,
-				E7B19FC3C0BD662193945DEE594FD359 /* Support Files */,
-			);
-			name = NavigationDrawer;
-			path = NavigationDrawer;
-			sourceTree = "<group>";
-		};
-		E7B19FC3C0BD662193945DEE594FD359 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */,
-				757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */,
-				9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */,
-				5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */,
-				70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */,
-				7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */,
+				1F08A8F36F14D4AE88FA5F7FFA4891E0 /* NavigationDrawer.modulemap */,
+				8E989469443762BFE327DA172EBD28D9 /* NavigationDrawer.xcconfig */,
+				92945B4C2A5FB5F97C13E1EBC050911F /* NavigationDrawer-dummy.m */,
+				896D624F562E76714D8BC057A4527045 /* NavigationDrawer-Info.plist */,
+				2195DBB96C56303D08BE86E3FEE4E5DD /* NavigationDrawer-prefix.pch */,
+				5B88FEED2D359C3D447DF3071BE39E84 /* NavigationDrawer-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/NavigationDrawer";
 			sourceTree = "<group>";
 		};
+		E9A29E466905F868209B92E7CCBC5CCF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76BB2E77FBE73DD280FEAF3E8D90CBD9 /* Pods-MagtonicEmpApp */,
+				9594E7C602CA76CD68B87D3DF22A85A0 /* Pods-MagtonicEmpAppTests */,
+				C86C797D1785F150ACD22D04D23786D7 /* Pods-MagtonicEmpAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EBC880584FE2DFF823BCC5863C234694 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75B497488E3314801E4FB0C8009F9FDF /* CFNetwork.framework */,
+				12CD98D2E1967A971DD60249C2BD0616 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD155A0892AE5FEE58A82E06BC2DC84D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85B2EE30FB1B0FC6C11E75CB53F17FF9 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14D25F5164F30DEC2B5404D7BA48D9AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED032D688C432802182844DCFB87DAC9 /* Pods-MagtonicEmpApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A997DEFE8FE0CEF28007EE1C40EB207 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +580,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B20947CD9499C7D6F58E0880A5343F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C151F1B3F8274837EFF34C8D2E9D5BB3 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4345CAF065C23A46FEB18E99A746DFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,9 +596,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F520C13EAEF6DB7C55905FB530FE3361 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D44CD143DA66917B13D1EBAADF499F /* Pods-MagtonicEmpApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		337C3440B57BD0395BEFF43BC3214945 /* Pods-MagtonicEmpApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747162AE8E42127E94FBE5AD335EBD82 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */;
+			buildPhases = (
+				F520C13EAEF6DB7C55905FB530FE3361 /* Headers */,
+				97B3593936C641DCF320B87DF24A71E7 /* Sources */,
+				45A19856BC4CA01DA533A283E4DDD891 /* Frameworks */,
+				A6EDF58887F432469A0A5EDE31D3FBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1863586FC2CA73F549118DAA5D48A56D /* PBXTargetDependency */,
+				1EAC2FE106FE7FB5FD00B7F978816A20 /* PBXTargetDependency */,
+				8D76D200F86AE8CFD471D48D4318518C /* PBXTargetDependency */,
+				E53BD3EEE63E061C64561AFD6F76E1AF /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicEmpApp";
+			productName = "Pods-MagtonicEmpApp";
+			productReference = 1495664CC0A55B8B4FFC212307B1E2DC /* Pods_MagtonicEmpApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5455B208045065E5218D2C58C300B938 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C1DD79754737EFBBA4EBDEF6191917 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				B20947CD9499C7D6F58E0880A5343F2A /* Headers */,
+				71B61422F62875008DFDDB0669C89021 /* Sources */,
+				F0385CFD0F08A68A00EEABF0118CB3EA /* Frameworks */,
+				899A7AA5C962E65D6EBFD19AC7E7F17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = BE178B701F639D3882A6D34C7493A86C /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		BD75F80E2DA53AD648624D68BA0609F7 /* Pods-MagtonicEmpAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D80BCD47EE3DDC32E21EDAFE6624ED9 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppTests" */;
@@ -315,7 +663,7 @@
 			);
 			name = "Pods-MagtonicEmpAppTests";
 			productName = "Pods-MagtonicEmpAppTests";
-			productReference = A1AAD6FF21BE684310F1DFD8F04CABCD /* Pods_MagtonicEmpAppTests.framework */;
+			productReference = FD96BD9B69C72C4A1AB0040BC9D57A6E /* Pods_MagtonicEmpAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C27E842E31D2801DE2F26D4EC09A484C /* Pods-MagtonicEmpAppUITests */ = {
@@ -334,7 +682,7 @@
 			);
 			name = "Pods-MagtonicEmpAppUITests";
 			productName = "Pods-MagtonicEmpAppUITests";
-			productReference = 8532DB29FFAFBD84D975869935599FAA /* Pods_MagtonicEmpAppUITests.framework */;
+			productReference = A396194708F05BD236BACBF9A01C9863 /* Pods_MagtonicEmpAppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */ = {
@@ -352,26 +700,7 @@
 			);
 			name = NavigationDrawer;
 			productName = NavigationDrawer;
-			productReference = A099329695D2031F9BB645E4FD7D876F /* NavigationDrawer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66FEBC8300EF7C3A8F9AD40CDB395AF4 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */;
-			buildPhases = (
-				14D25F5164F30DEC2B5404D7BA48D9AF /* Headers */,
-				AF8C28B38A725DA55D7ACBEFF85D0C9B /* Sources */,
-				F2C38FBF34BAE68F0C5617420E3AD076 /* Frameworks */,
-				77CCA1D8FCEE40D8F5F233B5730746AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9DD1DEC85D51F8B2CB97624BF85AE0D /* PBXTargetDependency */,
-			);
-			name = "Pods-MagtonicEmpApp";
-			productName = "Pods-MagtonicEmpApp";
-			productReference = CD12C21254D141A2571A673BDAA7C2E2 /* Pods_MagtonicEmpApp.framework */;
+			productReference = 8BAA2BD49145C37FB1BF2949C4F9F469 /* NavigationDrawer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -391,12 +720,15 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D4423C09B5ADC1F74E1AAAA2E5C8E3FE /* Products */;
+			productRefGroup = 3C5C3566F4D359BFFD3A2A551D3F1153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5455B208045065E5218D2C58C300B938 /* Alamofire */,
+				BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */,
+				1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */,
 				CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */,
-				CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */,
+				337C3440B57BD0395BEFF43BC3214945 /* Pods-MagtonicEmpApp */,
 				BD75F80E2DA53AD648624D68BA0609F7 /* Pods-MagtonicEmpAppTests */,
 				C27E842E31D2801DE2F26D4EC09A484C /* Pods-MagtonicEmpAppUITests */,
 			);
@@ -418,7 +750,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77CCA1D8FCEE40D8F5F233B5730746AC /* Resources */ = {
+		899A7AA5C962E65D6EBFD19AC7E7F17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EDF58887F432469A0A5EDE31D3FBC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,6 +774,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		71B61422F62875008DFDDB0669C89021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D7B103972439C4CBF41649B08AAF0 /* AFError.swift in Sources */,
+				416301B99D1AC5B20335AD81F4C9D84A /* AFResult.swift in Sources */,
+				CE1253B025D313B46AEB364DE6C7BDC7 /* Alamofire-dummy.m in Sources */,
+				B305E9D96C331E3F4B551B75B5302F87 /* Alamofire.swift in Sources */,
+				C55B4FADFF22B8AD07E58F85030CA35D /* AlamofireExtended.swift in Sources */,
+				A9EE308B2D941BAF2166129297A047B1 /* CachedResponseHandler.swift in Sources */,
+				33B84C7151ACC9D760583616325FF3E7 /* DispatchQueue+Alamofire.swift in Sources */,
+				D588D7E739F28115CDB1CCC2B9C22100 /* EventMonitor.swift in Sources */,
+				2F3DC18CA95CF68B498C8B73D9877AC9 /* HTTPHeaders.swift in Sources */,
+				4C0FBEF7CCC2FC722C2377C650720EB0 /* HTTPMethod.swift in Sources */,
+				0A2369A730F869049F86BA1C50731299 /* MultipartFormData.swift in Sources */,
+				8AD93BE632D0608CCCA1FBCFC63BC66B /* MultipartUpload.swift in Sources */,
+				B3F60459F07BBCA1FDC5D4381725624C /* NetworkReachabilityManager.swift in Sources */,
+				76BBD4616C7376EE546895EEA4894190 /* Notifications.swift in Sources */,
+				3C757CB04009A68857B94438BF1AD284 /* OperationQueue+Alamofire.swift in Sources */,
+				C7EA23BA12A962DCDA752C3BF64C01B3 /* ParameterEncoder.swift in Sources */,
+				393760E3DA927EAA70D72B5899AB2824 /* ParameterEncoding.swift in Sources */,
+				1D36F64B087BD181A325246C0724C035 /* Protector.swift in Sources */,
+				447EECA096208E6EBE1D60E51CD3B7E6 /* RedirectHandler.swift in Sources */,
+				FA19F85858F33B317638806875A3F64D /* Request.swift in Sources */,
+				96C780174FA5C2FE183C24CBCD7FCD5D /* RequestInterceptor.swift in Sources */,
+				F574A811FFB1937C78B3136C61279FC8 /* RequestTaskMap.swift in Sources */,
+				BF39148BF2BFD126BD707B82A9BBAF95 /* Response.swift in Sources */,
+				6994213E9530A50BE03B1AE7610FD042 /* ResponseSerialization.swift in Sources */,
+				951F9FA24AD53103A5A98E5180296509 /* RetryPolicy.swift in Sources */,
+				59E55A8E327F78DE82D913C7F2555A4A /* ServerTrustEvaluation.swift in Sources */,
+				75D2E9FC953708B8E21F8B06ED6EFE51 /* Session.swift in Sources */,
+				AACFFC19DDEF5EEC0503EC184F212230 /* SessionDelegate.swift in Sources */,
+				76A7649F3E740E03D2944DCDC2143881 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				3F77368459FCBBD9A9680C0E3CB4A2EB /* URLRequest+Alamofire.swift in Sources */,
+				D8C03A9CC87596088C56CB7D10AE1F28 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				834547FCE9F21795A1541381C15553DD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9757826F466186E116022D50D9F462D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,19 +825,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97B3593936C641DCF320B87DF24A71E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C3AB17FEDA328F1AC74A99D2EFE0BD /* Pods-MagtonicEmpApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF1CC5B21DD3CDD7E5E95B48FD448862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B392D6BB76DF47DD110450B3B88884D /* Pods-MagtonicEmpAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF8C28B38A725DA55D7ACBEFF85D0C9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB2E56EAE54841DA7F55B67EC57C25CD /* Pods-MagtonicEmpApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,30 +852,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1863586FC2CA73F549118DAA5D48A56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 5455B208045065E5218D2C58C300B938 /* Alamofire */;
+			targetProxy = 6869CAD74F574E75BDEC606CB23177BB /* PBXContainerItemProxy */;
+		};
+		1EAC2FE106FE7FB5FD00B7F978816A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = 63EF65D4A5DA6048E7AE8B60532E2B2A /* PBXContainerItemProxy */;
+		};
 		1F952F9D5F2204C253C0C6EF5551AC80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MagtonicEmpApp";
-			target = CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */;
+			target = 337C3440B57BD0395BEFF43BC3214945 /* Pods-MagtonicEmpApp */;
 			targetProxy = 77FE6CB4750497C48252348BBC92954E /* PBXContainerItemProxy */;
+		};
+		8D76D200F86AE8CFD471D48D4318518C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */;
+			targetProxy = FFC82A313D0C06C58A2C604F5F192183 /* PBXContainerItemProxy */;
 		};
 		9570BBF544D7B6D0B5AEC1697977DD29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MagtonicEmpApp";
-			target = CF1FAD7A7143EB3D35A5013A7B33C019 /* Pods-MagtonicEmpApp */;
+			target = 337C3440B57BD0395BEFF43BC3214945 /* Pods-MagtonicEmpApp */;
 			targetProxy = 91033E4EDDF1BB9CE364A52F9D1AFBD6 /* PBXContainerItemProxy */;
 		};
-		C9DD1DEC85D51F8B2CB97624BF85AE0D /* PBXTargetDependency */ = {
+		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
+			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
+		};
+		E53BD3EEE63E061C64561AFD6F76E1AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NavigationDrawer;
 			target = CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */;
-			targetProxy = 53522828977088DE5BE685E9EAB72EC4 /* PBXContainerItemProxy */;
+			targetProxy = 95C5E8FB8678201A06ABB47220BD5C5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		21B7A6A723AAFC63C3538E2531D98A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			baseConfigurationReference = 8E989469443762BFE327DA172EBD28D9 /* NavigationDrawer.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -531,9 +933,48 @@
 			};
 			name = Debug;
 		};
+		23A8F55695DAA8BF39AA48EBDEA61FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BC987D0E1D8FBC8DF777C4C9BBB680 /* Pods-MagtonicEmpApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3554B0827CB8C90D1B584F1893C104CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9521B24D124A4AB12B884A3799A2DBD8 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 1E570E14FEE66BD7A0180037EFFB7953 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -571,7 +1012,7 @@
 		};
 		37991C3CCA9D0A8C098F9D6BFAE63961 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2885B348A7163DD4587F0186E2BF503A /* Pods-MagtonicEmpAppUITests.release.xcconfig */;
+			baseConfigurationReference = F30EC8FA41C892020676EA6C095E4D27 /* Pods-MagtonicEmpAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -608,47 +1049,25 @@
 			};
 			name = Release;
 		};
-		48F8521A3AA1205A3D51D6FBD93CB270 /* Debug */ = {
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40ABBA1F72A8548252AF45742B623DD /* Pods-MagtonicEmpApp.debug.xcconfig */;
+			baseConfigurationReference = 2EE0A773E7374FAAAEF5FCB8E120C601 /* GoogleMaps.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		556DEAE8BA38068D054EB4F8CFDC0D97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			baseConfigurationReference = 8E989469443762BFE327DA172EBD28D9 /* NavigationDrawer.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -683,9 +1102,9 @@
 			};
 			name = Release;
 		};
-		76A3132A5E715453CA508B8C7724FC9A /* Release */ = {
+		6089E1A90FBED739174F1D0B9FCD426D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76F1345501B177A69EE1368C000F6A22 /* Pods-MagtonicEmpApp.release.xcconfig */;
+			baseConfigurationReference = CDA1806FF6359AAC2E76B3F071864FAD /* Pods-MagtonicEmpApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -716,11 +1135,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -782,9 +1200,62 @@
 			};
 			name = Release;
 		};
+		87FCC2B9F5E6F9D87414A5E3DBD10F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9721B09E31CC00910A06D33E30239B92 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1CAA057AFDE591FF9914508EADFB40 /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B698ABFF58A33CAEE932F640D12A1D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F49EEFFB3633B0EB8D43F65F9918F3 /* Pods-MagtonicEmpAppTests.debug.xcconfig */;
+			baseConfigurationReference = F649D25DEDD242C922DF931A3C7FFFE7 /* Pods-MagtonicEmpAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -814,6 +1285,59 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE0A773E7374FAAAEF5FCB8E120C601 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA63F964AE990838F944EE64CCC409E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9721B09E31CC00910A06D33E30239B92 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -884,9 +1408,26 @@
 			};
 			name = Debug;
 		};
+		DC85D7712D8EE6E340F053BC38E1FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1CAA057AFDE591FF9914508EADFB40 /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ECD892023DADBCBA6ED59B00CF77E28E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36BB5AF7CC52260C684CB417EA3666B2 /* Pods-MagtonicEmpAppTests.release.xcconfig */;
+			baseConfigurationReference = C5504EDD2416A3949E00E50F32FDB7F1 /* Pods-MagtonicEmpAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -935,6 +1476,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */,
+				DC85D7712D8EE6E340F053BC38E1FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C1DD79754737EFBBA4EBDEF6191917 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA63F964AE990838F944EE64CCC409E7 /* Debug */,
+				87FCC2B9F5E6F9D87414A5E3DBD10F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -944,20 +1512,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66FEBC8300EF7C3A8F9AD40CDB395AF4 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48F8521A3AA1205A3D51D6FBD93CB270 /* Debug */,
-				76A3132A5E715453CA508B8C7724FC9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6D80BCD47EE3DDC32E21EDAFE6624ED9 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B698ABFF58A33CAEE932F640D12A1D72 /* Debug */,
 				ECD892023DADBCBA6ED59B00CF77E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747162AE8E42127E94FBE5AD335EBD82 /* Build configuration list for PBXNativeTarget "Pods-MagtonicEmpApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6089E1A90FBED739174F1D0B9FCD426D /* Debug */,
+				23A8F55695DAA8BF39AA48EBDEA61FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
