@@ -24,3 +24,9 @@
 "COMPLETE_ERROR" = "Some error in your Connection. Please try again.";
 "DATA_LOADING" = "Loading...";
 "DIALOG_WARNING" = "Warning";
+"SLIDINGVIEW_MENU_TOP_TITLE" = "Magtonic";
+"SLIDINGVIEW_MENU_TOP_EMP_GREETING" = "Hi, ";
+"FUNC_PUNCHCARD" = " Punch Card";
+"FUNC_HISTORY" = " History";
+"FUNC_OTHER" = "Other";
+"FUNC_LOGOUT" = "Logout";

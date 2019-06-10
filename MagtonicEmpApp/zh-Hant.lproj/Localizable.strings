@@ -24,3 +24,9 @@
 "COMPLETE_ERROR" = "連線過程中產生錯誤. 請再嘗試一次.";
 "DATA_LOADING" = "讀取中...";
 "DIALOG_WARNING" = "警告";
+"SLIDINGVIEW_MENU_TOP_TITLE" = "期美科技";
+"SLIDINGVIEW_MENU_TOP_EMP_GREETING" = "嗨, ";
+"FUNC_PUNCHCARD" = " 打卡";
+"FUNC_HISTORY" = " 歷史紀錄";
+"FUNC_OTHER" = "其他";
+"FUNC_LOGOUT" = "登出";

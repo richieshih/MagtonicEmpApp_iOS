@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Ca-jE-BJp"; */
+"5Ca-jE-BJp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Magtonic"; ObjectID = "K2T-Ox-iwF"; */
+"K2T-Ox-iwF.text" = "Magtonic";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "UTB-ef-6Of"; */
+"UTB-ef-6Of.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UhI-1y-aX0"; */
+"UhI-1y-aX0.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "caA-rv-hLw"; */
+"caA-rv-hLw.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "nvQ-2o-j5K"; */
+"nvQ-2o-j5K.title" = "Title";

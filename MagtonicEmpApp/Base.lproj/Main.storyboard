@@ -163,7 +163,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Title" id="nvQ-2o-j5K">
+                                    <navigationItem title="Base" id="nvQ-2o-j5K">
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="menu_icon" id="UTB-ef-6Of">
                                             <connections>
                                                 <action selector="homeButtonPressed:" destination="BYZ-38-t0r" id="b0o-2P-wLz"/>
@@ -229,6 +229,56 @@
             </objects>
             <point key="canvasLocation" x="-65" y="19"/>
         </scene>
+        <!--History View Controller-->
+        <scene sceneID="p4o-24-FN7">
+            <objects>
+                <viewController storyboardIdentifier="HistoryViewController" id="GeR-PD-8wz" customClass="HistoryViewController" customModule="MagtonicEmpApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cz2-sZ-Goo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3p-UX-mkZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="History" id="zti-T8-z5r">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu_icon" id="Phb-UM-DgV">
+                                            <connections>
+                                                <action selector="homeButtonPressed:" destination="GeR-PD-8wz" id="AyN-Dc-Y9Y"/>
+                                                <segue destination="9Ff-Td-R47" kind="presentation" identifier="showSlidingMenu2" id="E8E-be-0zg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="QiP-gf-mNv"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="M7z-uA-Heh"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="73M-iO-1lX" appends="YES" id="gjR-e2-hAc"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="titleBar" destination="k3p-UX-mkZ" id="zmx-SJ-Zld"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SC4-Ph-A4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="73M-iO-1lX">
+                    <connections>
+                        <action selector="edgePanGestureWithSender:" destination="GeR-PD-8wz" id="RGj-fT-RDe"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-65" y="684"/>
+        </scene>
         <!--Sliding View Controller-->
         <scene sceneID="1GZ-AN-1yb">
             <objects>
@@ -282,19 +332,47 @@
                                                     <constraint firstItem="UhI-1y-aX0" firstAttribute="height" secondItem="v4S-gx-4W1" secondAttribute="height" multiplier="0.25" id="AmE-cC-jUS"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="C8Y-tp-bwz">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8zg-jB-s5p">
                                                 <rect key="frame" x="0.0" y="245.5" width="331" height="572.5"/>
-                                            </stackView>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" tag="101" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="funCell" id="0l7-uL-os9">
+                                                        <rect key="frame" x="0.0" y="28" width="331" height="60"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0l7-uL-os9" id="MMQ-YE-e41">
+                                                            <rect key="frame" x="0.0" y="0.0" width="331" height="60"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="punch_card_icon" translatesAutoresizingMaskIntoConstraints="NO" id="iq4-xX-49Y">
+                                                                    <rect key="frame" x="0.0" y="6" width="48" height="48"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="punch card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzv-5e-hKo">
+                                                                    <rect key="frame" x="56" y="6" width="275" height="48"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </tableViewCellContentView>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="9Ff-Td-R47" id="Nta-j0-9on"/>
+                                                    <outlet property="delegate" destination="9Ff-Td-R47" id="VbF-WR-8O8"/>
+                                                </connections>
+                                            </tableView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="v4S-gx-4W1" firstAttribute="top" secondItem="lYA-GX-DDh" secondAttribute="top" id="8Vf-oV-Z8H"/>
                                             <constraint firstItem="v4S-gx-4W1" firstAttribute="leading" secondItem="lYA-GX-DDh" secondAttribute="leading" id="B0K-N4-fYi"/>
+                                            <constraint firstItem="8zg-jB-s5p" firstAttribute="leading" secondItem="lYA-GX-DDh" secondAttribute="leading" id="N7W-vY-dGa"/>
                                             <constraint firstItem="v4S-gx-4W1" firstAttribute="height" secondItem="lYA-GX-DDh" secondAttribute="height" multiplier="0.3" id="RSn-IY-UD9"/>
-                                            <constraint firstAttribute="bottom" secondItem="C8Y-tp-bwz" secondAttribute="bottom" id="WrF-pU-CNN"/>
+                                            <constraint firstAttribute="trailing" secondItem="8zg-jB-s5p" secondAttribute="trailing" id="SJq-6d-dfN"/>
                                             <constraint firstAttribute="trailing" secondItem="v4S-gx-4W1" secondAttribute="trailing" id="eVV-ee-oDu"/>
-                                            <constraint firstAttribute="trailing" secondItem="C8Y-tp-bwz" secondAttribute="trailing" id="uUO-eX-4Lr"/>
-                                            <constraint firstItem="C8Y-tp-bwz" firstAttribute="height" secondItem="lYA-GX-DDh" secondAttribute="height" multiplier="0.7" id="ug0-oP-2e7"/>
-                                            <constraint firstItem="C8Y-tp-bwz" firstAttribute="leading" secondItem="lYA-GX-DDh" secondAttribute="leading" id="ve9-WJ-cr1"/>
+                                            <constraint firstAttribute="bottom" secondItem="8zg-jB-s5p" secondAttribute="bottom" id="kQa-BR-Kl2"/>
+                                            <constraint firstItem="8zg-jB-s5p" firstAttribute="height" secondItem="lYA-GX-DDh" secondAttribute="height" multiplier="0.7" id="spf-la-Vw1"/>
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ca-jE-BJp">
@@ -331,6 +409,9 @@
                     <connections>
                         <outlet property="TopStackView" destination="v4S-gx-4W1" id="m63-eG-jc9"/>
                         <outlet property="btnSpace" destination="5Ca-jE-BJp" id="JHb-hC-1kA"/>
+                        <outlet property="funcTableView" destination="8zg-jB-s5p" id="KJD-fv-21n"/>
+                        <outlet property="labelMenuTopEmpGreeting" destination="UhI-1y-aX0" id="LtY-r3-y5y"/>
+                        <outlet property="labelMenuTopTitle" destination="K2T-Ox-iwF" id="ZHI-pw-3Ud"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rAJ-zx-mxa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -340,12 +421,16 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="704" y="19"/>
+            <point key="canvasLocation" x="702.89855072463774" y="18.75"/>
         </scene>
     </scenes>
     <resources>
         <image name="first_viewLogo" width="229.5" height="58"/>
         <image name="logo" width="96" height="96"/>
         <image name="menu_icon" width="48" height="48"/>
+        <image name="punch_card_icon" width="48" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="E8E-be-0zg"/>
+    </inferredMetricsTieBreakers>
 </document>

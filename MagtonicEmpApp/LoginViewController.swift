@@ -55,6 +55,9 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         let currentDevice = UIDevice.current
         uuid = currentDevice.identifierForVendor?.uuidString
         
+        //debug uuid
+        uuid = "358885096306040"
+        
         print("uuid = ", uuid! as NSString)
         
         
@@ -308,12 +311,39 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         if let result = value["result"] {
             
             let result_str = result as? String ?? ""
+            let result_str2 = value["result2"] as? String ?? ""
             
             if result_str == "1" {
                 print("Login success")
+                
+                //save a sdefaults
+                let defaults = UserDefaults.standard
+                
+                if textFieldAccount.text!.count > 0 {
+                    defaults.set(textFieldAccount.text, forKey: "Account")
+                }
+                
+                if textFieldPassword.text!.count > 0 {
+                    defaults.set(textFieldPassword.text, forKey: "Password")
+                }
+                
+                if (uuid!.count > 0) {
+                    defaults.set(uuid, forKey: "DeviceID")
+                }
+                //save name
+                if result_str2.count > 0 {
+                    defaults.set(result_str2, forKey: "Name")
+                }
+                
+                //go baseview
+                
+                let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+                let vc = storyBoard.instantiateViewController(withIdentifier: "BaseViewController")
+                self.present(vc, animated: true, completion: nil)
+                
             } else {
                 
-                let result_str2 = value["result2"] as? String ?? ""
+                
                 
                 //let message = NSLocalizedString("LOGIN_ID_EMPTY", comment: "")
                 let alert = UIAlertController.init(title: "", message: result_str2, preferredStyle: UIAlertController.Style.alert)
@@ -326,6 +356,23 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
             }
             
         }
+    }
+    
+    func findFirstChar(output: String, compare: Character) -> Int {
+        var ret = -1
+        
+        var index = 0
+        for char in output {
+            if compare == char {
+                print("compare = \(compare), char = \(char)")
+                ret = index
+                break
+            }
+            index = index + 1
+        }
+        
+        
+        return ret
     }
     
     func sendHttpPost(fun_name: String, p_json: String, completion: @escaping (NSDictionary) -> Void) {
@@ -390,9 +437,18 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
                     var cut_tail: String = ""
                     if outputStr!.count > 0 {
                         
-                        let start = outputStr!.index(outputStr!.startIndex, offsetBy: 1)
+                        print("outputStr.count = \(outputStr!.count)")
+                        let start_index = self.findFirstChar(output: outputStr!, compare: "[")
+                        print("start_index = \(start_index)")
+                        let end_index = self.findFirstChar(output: outputStr!, compare: "]")
+                        print("end_index = \(end_index)")
+                        
+                        let start_offset = start_index + 1
+                        let end_offset = end_index - outputStr!.count
+                        
+                        let start = outputStr!.index(outputStr!.startIndex, offsetBy: start_offset) //"["
                         let cut_head = String(outputStr![start...])
-                        let end = cut_head.index(cut_head.endIndex, offsetBy: -1)
+                        let end = cut_head.index(cut_head.endIndex, offsetBy: end_offset) //"]"
                         cut_tail = String(cut_head[..<end])
                         
                         print("cut_tail = \(cut_tail)")

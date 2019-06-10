@@ -15,6 +15,7 @@ class OpeningViewController: UIViewController {
     @IBOutlet weak var imgLogo: UIImageView!
     
     var _account: String = ""
+    var _password: String = ""
     var _deviceId: String = ""
     
     override func viewDidLoad() {
@@ -46,9 +47,10 @@ class OpeningViewController: UIViewController {
         */
         
         _account = defaults.string(forKey: "Account") ?? ""
+        _password = defaults.string(forKey: "Password") ?? ""
         _deviceId = defaults.string(forKey: "DeviceID") ?? ""
         
-        print("account = \(_account) deviceID = \(_deviceId)")
+        print("account = \(_account) password = \(_password) deviceID = \(_deviceId)")
         
         
         self.labelCompany.text = NSLocalizedString("OPENING_COMPANY_NAME", comment: "")

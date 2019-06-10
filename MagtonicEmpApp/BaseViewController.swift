@@ -42,6 +42,8 @@ class BaseViewController: UIViewController, UIViewControllerTransitioningDelegat
         
         print("viewDidLoad")
         
+        
+        
         	//let camera = GMSCameraPosition.camera(withLatitude: 34.675483, longitude: 135.500520, zoom: 17.0)
         //GMSMapViewGoogleMaps.camera = camera
         // Do any additional setup after loading the view.
