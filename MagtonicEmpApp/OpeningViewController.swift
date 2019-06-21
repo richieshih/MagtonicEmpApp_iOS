@@ -21,6 +21,7 @@ class OpeningViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("OpeningViewController -> viewDidLoad")
         // Do any additional setup after loading the view.
         
         //let currentDevice = UIDevice.current
@@ -96,10 +97,16 @@ class OpeningViewController: UIViewController {
                     let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
                     
                     if self._account != "" && self._deviceId != "" {
+                        //save current view
+                        defaults.set(CurrentView.View.BaseViewController.rawValue, forKey: "CurrentView")
+                        
                         let vc = storyBoard.instantiateViewController(withIdentifier: "BaseViewController")
                         
                         self.present(vc, animated: true, completion: nil)
                     } else {
+                        //save current view
+                        defaults.set(CurrentView.View.LoginViewController.rawValue, forKey: "CurrentView")
+                        
                         let vc = storyBoard.instantiateViewController(withIdentifier: "LoginViewController")
                         
                         self.present(vc, animated: true, completion: nil)
@@ -126,6 +133,17 @@ class OpeningViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("OpeningViewController -> viewDidAppear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        print("OpeningViewController -> viewDidDisappear")
+    }
 
     /*
     // MARK: - Navigation

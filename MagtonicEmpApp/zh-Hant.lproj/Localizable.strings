@@ -9,6 +9,8 @@
 "MAGTONIC＿EMP_APP" = "期美行動打卡";
 "OPENING_COMPANY_NAME" = "期美科技";
 "OPENING_TITLE" = "行動出勤系統";
+"COMMON_OK" = "確定";
+"COMMON_CANCEL" = "取消";
 
 "LOGIN_TITLE" = "期美科技行動出勤系統";
 "LOGIN_EMP_NO" = "員工工號";
@@ -30,3 +32,23 @@
 "FUNC_HISTORY" = " 歷史紀錄";
 "FUNC_OTHER" = "其他";
 "FUNC_LOGOUT" = "登出";
+"BTN_PUNCHCARD_CLOCK_ON" = "一般上班";
+"BTN_PUNCHCARD_CLOCK_OFF" = "一般下班";
+"BTN_PUNCHCARD_GO_OUT" = "外出";
+"BTN_PUNCHCARD_GO_BACK" = "回廠";
+"BTN_PUNCHCARD_CLOCK_ON_OVERTIME" = "加班上班";
+"BTN_PUNCHCARD_CLOCK_OFF_OVERTIME" = "加班下班";
+"PUNCHCARD_CLOCK_ON_SUCCESS" = "一般上班打卡成功";
+"PUNCHCARD_CLOCK_OFF_SUCCESS" = "一般下班打卡成功";
+"PUNCHCARD_GO_OUT_SUCCESS" = "外出打卡成功";
+"PUNCHCARD_GO_BACK_SUCCESS" = "回廠打卡成功";
+"PUNCHCARD_CLOCK_ON_OVERTIME_SUCCESS" = "加班上班打卡成功";
+"PUNCHCARD_CLOCK_OFF_OVERTIME_SUCCESS" = "加班下班打卡成功";
+"DIALOG_CLEAR_ALL_HISTORY" = "清除所有紀錄？";
+
+"MAP_MARKER_MY_LOCATION" = "我的位置";
+"MAP_LATITUDE" = "緯度";
+"MAP_LONGITUDE" = "經度";
+
+"LOGOUT_DIALOG_TITLE" = "登出";
+"LOGOUT_DIALOG_MSG" = "登出此帳號？";

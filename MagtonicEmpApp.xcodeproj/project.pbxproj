@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		395EAD696704FF281D336A99 /* Pods_MagtonicEmpAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */; };
-		4774E4D922AE481F00245A35 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774E4D822AE481F00245A35 /* HistoryViewController.swift */; };
 		47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E622A0A98000651E98 /* AppDelegate.swift */; };
 		47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224E822A0A98000651E98 /* BaseViewController.swift */; };
 		47B224EC22A0A98000651E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B224EA22A0A98000651E98 /* Main.storyboard */; };
@@ -16,11 +15,16 @@
 		47B224FC22A0A98200651E98 /* MagtonicEmpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B224FB22A0A98200651E98 /* MagtonicEmpAppTests.swift */; };
 		47B2250722A0A98200651E98 /* MagtonicEmpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */; };
 		47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B2251422A0ADFC00651E98 /* SlidingViewController.swift */; };
+		47F7FDC322B331EF00A778EF /* historyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F7FDC222B331EF00A778EF /* historyDB.swift */; };
 		47FBB98822A4CACD0021A236 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB98A22A4CACD0021A236 /* Localizable.strings */; };
 		47FBB98E22A4CB380021A236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB99022A4CB380021A236 /* InfoPlist.strings */; };
 		47FBB99322A4EA700021A236 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBB99222A4EA700021A236 /* OpeningViewController.swift */; };
 		47FBB99522A516950021A236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FBB99422A516950021A236 /* Assets.xcassets */; };
 		47FBB99722A5184E0021A236 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FBB99622A5184E0021A236 /* LoginViewController.swift */; };
+		47FF09D922AF2EBD001BBAC6 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF09D822AF2EBD001BBAC6 /* CurrentView.swift */; };
+		47FF09DB22AF5CC2001BBAC6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FF09DA22AF5CC2001BBAC6 /* libsqlite3.tbd */; };
+		47FF09DF22AF74F4001BBAC6 /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF09DE22AF74F4001BBAC6 /* SQLiteConnect.swift */; };
+		47FF09E122AF75DC001BBAC6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF09E022AF75DC001BBAC6 /* History.swift */; };
 		7E95AFCE020A8C32ECEF8230 /* Pods_MagtonicEmpAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */; };
 		FFBBEBC7894A3196F83A14A9 /* Pods_MagtonicEmpApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +50,6 @@
 		08311737553CD3B3CF5DBE18 /* Pods-MagtonicEmpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpApp.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpApp/Pods-MagtonicEmpApp.release.xcconfig"; sourceTree = "<group>"; };
 		18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		203F04D5C59863F61B953651 /* Pods-MagtonicEmpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4774E4D822AE481F00245A35 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		47B224E322A0A98000651E98 /* MagtonicEmpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagtonicEmpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B224E622A0A98000651E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47B224E822A0A98000651E98 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -60,13 +63,19 @@
 		47B2250622A0A98200651E98 /* MagtonicEmpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicEmpAppUITests.swift; sourceTree = "<group>"; };
 		47B2250822A0A98200651E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B2251422A0ADFC00651E98 /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		47F7FDC222B331EF00A778EF /* historyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyDB.swift; sourceTree = "<group>"; };
 		47FBB98922A4CACD0021A236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		47FBB98B22A4CAD50021A236 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		47FBB98F22A4CB380021A236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47FBB99122A4CB3B0021A236 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		47FBB99222A4EA700021A236 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
-		47FBB99422A516950021A236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		47FBB99422A516950021A236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47FBB99622A5184E0021A236 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47FF09D822AF2EBD001BBAC6 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		47FF09DA22AF5CC2001BBAC6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		47FF09DD22AF71CD001BBAC6 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		47FF09DE22AF74F4001BBAC6 /* SQLiteConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteConnect.swift; sourceTree = "<group>"; };
+		47FF09E022AF75DC001BBAC6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicEmpAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ECADFC3724E12E1575C412 /* Pods-MagtonicEmpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppUITests/Pods-MagtonicEmpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		784FE9BFBDB2A5496FD2AF77 /* Pods-MagtonicEmpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicEmpAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicEmpAppTests/Pods-MagtonicEmpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47FF09DB22AF5CC2001BBAC6 /* libsqlite3.tbd in Frameworks */,
 				FFBBEBC7894A3196F83A14A9 /* Pods_MagtonicEmpApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,13 +138,17 @@
 		47B224E522A0A98000651E98 /* MagtonicEmpApp */ = {
 			isa = PBXGroup;
 			children = (
+				47FF09DD22AF71CD001BBAC6 /* BridgeHeader.h */,
 				47B224F222A0A98200651E98 /* Info.plist */,
 				47B224E622A0A98000651E98 /* AppDelegate.swift */,
 				47B224E822A0A98000651E98 /* BaseViewController.swift */,
-				4774E4D822AE481F00245A35 /* HistoryViewController.swift */,
+				47FF09D822AF2EBD001BBAC6 /* CurrentView.swift */,
+				47FF09E022AF75DC001BBAC6 /* History.swift */,
+				47F7FDC222B331EF00A778EF /* historyDB.swift */,
 				47FBB99622A5184E0021A236 /* LoginViewController.swift */,
 				47FBB99222A4EA700021A236 /* OpeningViewController.swift */,
 				47B2251422A0ADFC00651E98 /* SlidingViewController.swift */,
+				47FF09DE22AF74F4001BBAC6 /* SQLiteConnect.swift */,
 				47FBB99422A516950021A236 /* Assets.xcassets */,
 				47FBB99022A4CB380021A236 /* InfoPlist.strings */,
 				47B224EF22A0A98200651E98 /* LaunchScreen.storyboard */,
@@ -178,6 +192,7 @@
 		8CCCFA72A705FEDB6B32311C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47FF09DA22AF5CC2001BBAC6 /* libsqlite3.tbd */,
 				9075689E7213084F0CCD8B62 /* Pods_MagtonicEmpApp.framework */,
 				18EA2E7E3EADFFF49E3A2FAF /* Pods_MagtonicEmpAppTests.framework */,
 				5E656AADC75FAFDECA8E2606 /* Pods_MagtonicEmpAppUITests.framework */,
@@ -443,10 +458,13 @@
 			files = (
 				47B224E922A0A98000651E98 /* BaseViewController.swift in Sources */,
 				47FBB99322A4EA700021A236 /* OpeningViewController.swift in Sources */,
+				47FF09E122AF75DC001BBAC6 /* History.swift in Sources */,
 				47B224E722A0A98000651E98 /* AppDelegate.swift in Sources */,
-				4774E4D922AE481F00245A35 /* HistoryViewController.swift in Sources */,
 				47FBB99722A5184E0021A236 /* LoginViewController.swift in Sources */,
 				47B2251522A0ADFC00651E98 /* SlidingViewController.swift in Sources */,
+				47F7FDC322B331EF00A778EF /* historyDB.swift in Sources */,
+				47FF09DF22AF74F4001BBAC6 /* SQLiteConnect.swift in Sources */,
+				47FF09D922AF2EBD001BBAC6 /* CurrentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +669,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicEmpApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MagtonicEmpApp/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -670,6 +689,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicEmpApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MagtonicEmpApp/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

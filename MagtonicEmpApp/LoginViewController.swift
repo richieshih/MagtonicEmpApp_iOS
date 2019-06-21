@@ -23,7 +23,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
     let login_fun = "Chk_mobile"
     let signin_fun = "Ins_mobile_file"
     
-    var webResponseData: NSMutableData? = nil
+    //var webResponseData: NSMutableData? = nil
     
     public var requestTime:TimeInterval?
     public var response:HTTPURLResponse?
@@ -65,7 +65,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         //let height = guide.layoutFrame.size.height
         let width = guide.layoutFrame.size.width
         let imgWidth = width
-        let imgHeight = imgWidth/4
+        let imgHeight = imgWidth/4	
         
         let statusBarHeight = UIApplication.shared.statusBarFrame.size.height
         print("statusBarHeight = \(statusBarHeight)")
@@ -117,7 +117,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         btnRegister.clipsToBounds = true
         btnRegister.setTitle(NSLocalizedString("LOGIN_BUTTON_REGISTER", comment: ""), for: UIControl.State.normal)
         
-        initLogging()
+        initLoading()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -155,7 +155,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         // Pass the selected object to the new view controller.
     }
     */
-    func initLogging() {
+    func initLoading() {
         
         container = UIView.init(frame: CGRect.init(x: self.view.frame.size.width/4, y: self.view.frame.size.height/2 - 20, width: self.view.frame.size.width/2, height: 50))
         container?.layer.cornerRadius = 10
@@ -334,6 +334,9 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
                 if result_str2.count > 0 {
                     defaults.set(result_str2, forKey: "Name")
                 }
+                
+                //save current view
+                defaults.set(CurrentView.View.BaseViewController.rawValue, forKey: "CurrentView")
                 
                 //go baseview
                 

@@ -9,6 +9,8 @@
 "MAGTONIC＿EMP_APP" = "Magtonic PunchCard";
 "OPENING_COMPANY_NAME" = "Magtonic Technology Inc.";
 "OPENING_TITLE" = "Mobile Attendance System";
+"COMMON_OK" = "Confirm";
+"COMMON_CANCEL" = "Cancel";
 
 "LOGIN_TITLE" = "Magtonic Attendance";
 "LOGIN_EMP_NO" = "Employee No.";
@@ -30,3 +32,23 @@
 "FUNC_HISTORY" = " History";
 "FUNC_OTHER" = "Other";
 "FUNC_LOGOUT" = "Logout";
+"BTN_PUNCHCARD_CLOCK_ON" = "Clock On";
+"BTN_PUNCHCARD_CLOCK_OFF" = "Clock Off";
+"BTN_PUNCHCARD_GO_OUT" = "Go Out";
+"BTN_PUNCHCARD_GO_BACK" = "Go Back";
+"BTN_PUNCHCARD_CLOCK_ON_OVERTIME" = "Clock On Overtime";
+"BTN_PUNCHCARD_CLOCK_OFF_OVERTIME" = "Clock Off Overtime";
+"PUNCHCARD_CLOCK_ON_SUCCESS" = "Clock On punch card success";
+"PUNCHCARD_CLOCK_OFF_SUCCESS" = "Clock Off punch card success";
+"PUNCHCARD_GO_OUT_SUCCESS" = "Go out punch card success";
+"PUNCHCARD_GO_BACK_SUCCESS" = "Go back punch card success";
+"PUNCHCARD_CLOCK_ON_OVERTIME_SUCCESS" = "Clock On overtime punch card success";
+"PUNCHCARD_CLOCK_OFF_OVERTIME_SUCCESS" = "Clock Off overtime punch card success";
+"DIALOG_CLEAR_ALL_HISTORY" = "Clear all history?";
+
+"MAP_MARKER_MY_LOCATION" = "My Location";
+"MAP_LATITUDE" = "LATITUDE";
+"MAP_LONGITUDE" = "LONGITUDE";
+
+"LOGOUT_DIALOG_TITLE" = "Logout";
+"LOGOUT_DIALOG_MSG" = "Logout from this account?";
